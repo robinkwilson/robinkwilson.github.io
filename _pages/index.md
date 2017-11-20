@@ -1,7 +1,7 @@
 ---
-title: "Hi, I'm Robin."
+title: "Welcome"
 layout: single
-permalink: /example/
+permalink: /
 date: 2016-03-23T11:48:41-04:00
 author_profile: true
 header:
@@ -11,56 +11,43 @@ header:
   # cta_label: "Contact"
   # cta_url: "https://github.com/mmistakes/minimal-mistakes/"
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "I'm a programmer and overall improver of processes. Efficiency is my middle name and I strive to fix any and all inefficiencies."
-intro:
-  - excerpt: 'Below are a list of my current projects.'
+excerpt: "Hi, I'm Robin. I'm a programmer and overall improver of processes. Efficiency is my middle name and I strive to fix any and all inefficiencies."
+portfolio:
+  - excerpt: 'Below are a list of current and past JavaScript projects.'
 feature_row:
   - image_path: assets/img/robinHeadshot1_thumbnail.jpg
     alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    title: "Bitcoin-VR"
+    excerpt: "Bitcoin transaction visualization using React-VR and socket.io."
   - image_path: /assets/img/robinHeadshot1_thumbnail.jpg
     alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    title: "Gallery VR"
+    excerpt: "Building a dynamic gallery using A-Frame, a VR web content library."
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/img/robinHeadshot1_thumbnail.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-feature_row2:
-  - image_path: /assets/img/robinHeadshot1_thumbnail.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row3:
+  - image_path: assets/img/robinHeadshot1_thumbnail.jpg
+    alt: "placeholder image 1"
+    title: "Data-VR "
+    excerpt: "Final Project at Fullstack Academy. Dove into visualizing data in virtual reality using React-VR."
   - image_path: /assets/img/robinHeadshot1_thumbnail.jpg
     alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
+    title: "Blog360"
+    excerpt: "Result of a 3 day Hackathon project experimenting with a photo blog viewed in a virtual reality headset."
     url: "#test-link"
-    btn_label: "Read More"
+    btn_label: "Watch"
     btn_class: "btn--primary"
-feature_row4:
   - image_path: /assets/img/robinHeadshot1_thumbnail.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+    title: "Agora"
+    excerpt: "The classiest chair selling e-commerce site **not** listed on the web. Created using React, Express.js, Node.js, sockets."
+  - image_path: /assets/img/robinHeadshot1_thumbnail.jpg
+    title: "Blockchain Tech Talk"
+    excerpt: "The classiest chair selling e-commerce site **not** listed on the web. Created using React, Express.js, Node.js, sockets."
 ---
 
-{% include feature_row id="intro" type="center" %}
+<a name="portfolio"></a>
+
+{% include feature_row id="portfolio" type="center" %}
 
 {% include feature_row %}
 
-{% include feature_row id="feature_row2" type="left" %}
-
-{% include feature_row id="feature_row3" type="right" %}
-
-{% include feature_row id="feature_row4" type="center" %}
