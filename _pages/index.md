@@ -11,7 +11,7 @@ header:
   # cta_label: "Contact"
   # cta_url: "https://github.com/mmistakes/minimal-mistakes/"
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Hi, I'm Robin. I'm a programmer and overall improver of processes. Efficiency is my middle name and I strive to fix any and all inefficiencies."
+excerpt: "Hi, I'm Robin. I'm a full stack engineer with a background in business. and overall improver of processes. Efficiency is my middle name and I strive to fix any and all inefficiencies."
 portfolio:
   - excerpt: 'Below are a list of current and past JavaScript projects.'
 feature_row:
@@ -19,10 +19,6 @@ feature_row:
     alt: "placeholder image 1"
     title: "Bitcoin-VR"
     excerpt: "Bitcoin transaction visualization using React-VR and socket.io."
-  - image_path: /assets/img/robinHeadshot1_thumbnail.jpg
-    alt: "placeholder image 2"
-    title: "Gallery VR"
-    excerpt: "Building a dynamic gallery using A-Frame, a VR web content library."
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -39,6 +35,7 @@ feature_row:
     btn_class: "btn--primary"
   - image_path: /assets/img/robinHeadshot1_thumbnail.jpg
     title: "Agora"
+    url: /agora/
     excerpt: "The classiest chair selling e-commerce site **not** listed on the web. Created using React, Express.js, Node.js, sockets."
   - image_path: /assets/img/robinHeadshot1_thumbnail.jpg
     title: "Blockchain Tech Talk"
@@ -47,7 +44,7 @@ feature_row:
 
 <a name="portfolio"></a>
 
+<h1>Portfolio</h1>
 {% include feature_row id="portfolio" type="center" %}
 
 {% include feature_row %}
-
