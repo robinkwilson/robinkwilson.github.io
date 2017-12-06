@@ -11,7 +11,7 @@ header:
   # cta_label: "Contact"
   # cta_url: "https://github.com/mmistakes/minimal-mistakes/"
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Hi, I'm Robin. I'm a full stack engineer with a background in business. and overall improver of processes. Efficiency is my middle name and I strive to fix any and all inefficiencies."
+excerpt: "Hi, I'm Robin. I'm a full stack engineer with a background in business and overall improver of processes. Efficiency is my middle name and I strive to fix any and all inefficiencies."
 portfolio:
   - excerpt: 'Below are a list of current and past JavaScript projects.'
 feature_row:
