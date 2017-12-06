@@ -32,3 +32,39 @@ $type-size-8 : 0.625em;  // ~10px
   margin-top: 0.5em;
   padding-bottom: 0.1em;
 }
+
+.third img {
+  object-fit: scale-down;
+  width:200px;
+  height:200px;
+  border: #898c8f solid 1px; // TODO needs to be lighter
+  border-radius: 0px;
+
+}
+
+.blog360 img {
+  object-fit: cover;
+}
+
+.archive__item-title {
+  font-size: 0.8em;
+}
+// .page__content img {
+//   object-fit: scale-down;
+//   width: 200px;
+//   height: 200px;
+//   border: #898c8f solid 1px;
+//   border-radius: 0px;
+// }
+
+.page__content p, .page__content li, .page__content dl {
+  font-size: 0.8em;
+}
+
+// p .btn .btn--primary {
+//   align-content: center;
+// }
+
+.author__avatar img {
+  max-width: 150px;
+}
