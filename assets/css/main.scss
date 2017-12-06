@@ -41,22 +41,9 @@ $type-size-8 : 0.625em;  // ~10px
   object-fit: cover;
 }
 
-
-// .page__content img {
-//   object-fit: scale-down;
-//   width: 200px;
-//   height: 200px;
-//   border: #898c8f solid 1px;
-//   border-radius: 0px;
-// }
-
 .page__content p, .page__content li, .page__content dl {
   font-size: 0.8em;
 }
-
-// p .btn .btn--primary {
-//   align-content: center;
-// }
 
 .author__avatar img {
   max-width: 150px;
@@ -76,30 +63,3 @@ $type-size-8 : 0.625em;  // ~10px
 .archive__item-teaser img{
   object-fit: cover;
 }
-
-// .archive__item-teaser img{
-//   position: relative;
-//   object-fit: cover;
-//   height: 0;
-//   padding-bottom: 100%;
-// }
-
-// .archive__item-teaser {
-//   position: relative;
-//   width: 100%;
-// }
-
-// .archive__item-teaser:before{
-//   content: "";
-//   display: block;
-//   padding-top: 100%;
-// }
-
-// .archive__item-teaser img{
-//   position:  absolute;
-//   object-fit: cover;
-//   top: 0;
-//   left: 0;
-//   bottom: 0;
-//   right: 0;
-// }
