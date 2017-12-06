@@ -15,11 +15,11 @@ excerpt: "Hi, I'm Robin. I'm a full stack engineer with a background in business
 portfolio:
   - excerpt: 'Below are a list of current and past JavaScript projects.'
 feature_row:
-  - image_path: assets/img/robinHeadshot1_thumbnail.jpg
+  - image_path: /assets/img/bitcoin/bitcoin_1.png
     alt: "placeholder image 1"
     title: "Bitcoin-VR"
     excerpt: "Bitcoin transaction visualization using React-VR and socket.io."
-    url: "#test-link"
+    url: /bitcoinvr/
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: assets/img/robinHeadshot1_thumbnail.jpg
@@ -45,6 +45,7 @@ feature_row:
 <a name="portfolio"></a>
 
 <h1>Portfolio</h1>
+
 {% include feature_row id="portfolio" type="center" %}
 
 {% include feature_row %}
