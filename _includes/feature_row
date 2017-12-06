@@ -14,25 +14,54 @@
       {% capture f_url %}{{ f.url | absolute_url }}{% endcapture %}
     {% endif %}
 
+    {% if f.image_url contains "://" %}
+      {% capture f_image_url %}{{ f.image_url }}{% endcapture %}
+    {% else %}
+      {% capture f_image_url %}{{ f.image_url | absolute_url }}{% endcapture %}
+    {% endif %}
+
+    {% if f.title_url contains "://" %}
+      {% capture f_title_url %}{{ f.title_url }}{% endcapture %}
+    {% else %}
+      {% capture f_title_url %}{{ f.title_url | absolute_url }}{% endcapture %}
+    {% endif %}
+
     <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
       <div class="archive__item">
         {% if f.image_path %}
           <div class="archive__item-teaser">
 
-            <img src=
-              {% if f.image_path contains "://" %}
-                "{{ f.image_path }}"
-              {% else %}
-                "{{ f.image_path | absolute_url }}"
-              {% endif %}
-            alt="{% if f.alt %}{{ f.alt }}{% endif %}">
+            {% if f.image_url %}
+              <a href="{{f_image_url}}">
+            {% endif %}
+
+              <img src=
+                {% if f.image_path contains "://" %}
+                  "{{ f.image_path }}"
+                {% else %}
+                  "{{ f.image_path | absolute_url }}"
+                {% endif %}
+              alt="{% if f.alt %}{{ f.alt }}{% endif %}">
+
+            {% if f.image_url %}
+              </a>
+            {% endif %}
           </div>
         {% endif %}
 
         <div class="archive__item-body">
-          {% if f.title %}
-            <h2 class="archive__item-title">{{ f.title }}</h2>
+
+          {% if f.title_url %}
+            <a href="{{f_title_url}}">
           {% endif %}
+
+            {% if f.title %}
+              <h2 class="archive__item-title">{{ f.title }}</h2>
+            {% endif %}
+
+            {% if f.title_url %}
+              </a>
+            {% endif %}
 
           {% if f.excerpt %}
             <div class="archive__item-excerpt">

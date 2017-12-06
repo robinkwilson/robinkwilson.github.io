@@ -12,8 +12,6 @@ $type-size-6 : 0.75em;   // ~12px
 $type-size-7 : 0.6875em; // ~11px
 $type-size-8 : 0.625em;  // ~10px
 
-
-
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
@@ -35,36 +33,33 @@ $type-size-8 : 0.625em;  // ~10px
 
 .third img {
   object-fit: scale-down;
-  width:200px;
-  height:200px;
   border: #898c8f solid 1px; // TODO needs to be lighter
-  border-radius: 0px;
-
+  //border-radius: 0px;
 }
 
 .blog360 img {
   object-fit: cover;
 }
 
-.archive__item-title {
-  font-size: 0.8em;
-}
-// .page__content img {
-//   object-fit: scale-down;
-//   width: 200px;
-//   height: 200px;
-//   border: #898c8f solid 1px;
-//   border-radius: 0px;
-// }
-
 .page__content p, .page__content li, .page__content dl {
   font-size: 0.8em;
 }
 
-// p .btn .btn--primary {
-//   align-content: center;
-// }
-
 .author__avatar img {
   max-width: 150px;
+}
+
+.archive__item-title {
+  font-size: 0.8em;
+}
+
+.archive__item-body a  {
+  border-bottom: none;
+  text-decoration: none;
+  color: #494e52;
+  border-bottom: none;
+}
+
+.archive__item-teaser img{
+  object-fit: cover;
 }
