@@ -42,6 +42,13 @@ $type-size-8 : 0.625em;  // ~10px
 
 }
 
+.blog360 img {
+  object-fit: cover;
+}
+
+.archive__item-title {
+  font-size: 0.8em;
+}
 // .page__content img {
 //   object-fit: scale-down;
 //   width: 200px;

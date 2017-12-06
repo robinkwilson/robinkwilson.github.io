@@ -26,14 +26,14 @@ feature_row:
     alt: "placeholder image 1"
     title: "Data-VR "
     excerpt: "Final Project at Fullstack Academy. Dove into visualizing data in virtual reality using React-VR."
-  - image_path: /assets/img/robinHeadshot1_thumbnail.jpg
+  - image_path: /assets/img/blog360/blog360_1.png
     alt: "placeholder image 2"
     title: "Blog360"
-    excerpt: "Result of a 3 day Hackathon project experimenting with a photo blog viewed in a virtual reality headset."
-    url: "#test-link"
+    excerpt: "Three day Hackathon project experimenting with a blog viewed in a virtual reality."
+    url: /blog360/
     btn_label: "Watch"
     btn_class: "btn--primary"
-  - image_path: /assets/img/robinHeadshot1_thumbnail.jpg
+  - image_path: /assets/img/agoraSS/agora_1.png
     title: "Agora"
     url: /agora/
     excerpt: "The classiest chair selling e-commerce site **not** listed on the web. Created using React, Express.js, Node.js, sockets."
