@@ -15,33 +15,41 @@ excerpt: "Hi, I'm Robin. I'm a full stack engineer with a background in business
 portfolio:
   - excerpt: 'Below are a list of current and past JavaScript projects.'
 feature_row:
-  - image_path: /assets/img/bitcoin/bitcoin_1.png
+  - image_path: /assets/img/bitcoin/bitcoin_1_th.png
     alt: "placeholder image 1"
     title: "Bitcoin-VR"
-    image_url: /bitcoinvr/
-    title_url: /bitcoinvr/
     excerpt: "Bitcoin transaction visualization using React-VR and socket.io."
     url: /bitcoinvr/
+    image_url: /bitcoinvr/
+    title_url: /bitcoinvr/
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: assets/img/robinHeadshot1_thumbnail.jpg
     alt: "placeholder image 1"
     title: "Data-VR "
     excerpt: "Final Project at Fullstack Academy. Dove into visualizing data in virtual reality using React-VR."
+    image_url: /datavr/
+    title_url: /datavr/
   - image_path: /assets/img/blog360/blog360_1.png
     alt: "placeholder image 2"
     title: "Blog360"
     excerpt: "Three day Hackathon project experimenting with a blog viewed in a virtual reality."
     url: /blog360/
+    image_url: /blog360/
+    title_url: /blog360/
     btn_label: "Watch"
     btn_class: "btn--primary"
   - image_path: /assets/img/agoraSS/agora_1.png
     title: "Agora"
     url: /agora/
+    image_url: /agora/
+    title_url: /agora/
     excerpt: "The classiest chair selling e-commerce site **not** listed on the web. Created using React, Express.js, Node.js, sockets."
   - image_path: /assets/img/robinHeadshot1_thumbnail.jpg
     title: "Blockchain Tech Talk"
     excerpt: "The classiest chair selling e-commerce site **not** listed on the web. Created using React, Express.js, Node.js, sockets."
+    image_url: /blockchain/
+    title_url: /blockchain/
 ---
 
 <a name="portfolio"></a>
