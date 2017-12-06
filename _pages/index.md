@@ -18,6 +18,8 @@ feature_row:
   - image_path: /assets/img/bitcoin/bitcoin_1.png
     alt: "placeholder image 1"
     title: "Bitcoin-VR"
+    image_url: /bitcoinvr/
+    title_url: /bitcoinvr/
     excerpt: "Bitcoin transaction visualization using React-VR and socket.io."
     url: /bitcoinvr/
     btn_label: "Read More"

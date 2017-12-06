@@ -68,3 +68,16 @@ $type-size-8 : 0.625em;  // ~10px
 .author__avatar img {
   max-width: 150px;
 }
+
+// .page__content h2 {
+//   padding-bottom: 0.5em;
+//   border-bottom: none;//1px solid #f2f3f3;
+//   color: #494e52;
+// }
+
+.archive__item-body a  {
+  border-bottom: none;
+  text-decoration: none;
+  color: #494e52;
+  border-bottom: none;
+}
