@@ -12,8 +12,6 @@ header:
   # cta_url: "https://github.com/mmistakes/minimal-mistakes/"
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "Hi, I'm Robin. I'm a full stack engineer with a background in business and overall improver of processes. Efficiency is my middle name and I strive to fix any and all inefficiencies."
-portfolio:
-  - excerpt: 'Below are a list of current (denoted with "**") and past projects.'
 feature_row:
   - image_path: /assets/img/bitcoin/bitcoin_1_th.png
     alt: "placeholder image 1"
@@ -25,6 +23,9 @@ feature_row:
     - btn_label: "Visit Site"
       btn_class: "btn--primary"
       url: https://bitcoin-vr.github.io/
+    - btn_label: "Github"
+      btn_class: "btn--primary"
+      url: https://github.com/bitcoin-vr
   - image_path: assets/img/datavr/datavr_1.png
     alt: "placeholder image 1"
     title: "Data-VR"
@@ -45,11 +46,18 @@ feature_row:
     - btn_label: "Presentation"
       btn_class: "btn--primary"
       url: /blog360/#presentation
+    - btn_label: "Github"
+      btn_class: "btn--primary"
+      url: https://github.com/robin-k-wilson/Blog360
   - image_path: /assets/img/agoraSS/agora_th.png
     title: "Agora, Chairs!"
     image_url: /agora/
     title_url: /agora/
     excerpt: "The classiest chair selling e-commerce site built using React, Node.js, and bootstrap."
+    buttons:
+    - btn_label: "Github"
+      btn_class: "btn--primary"
+      url: https://github.com/GraceShopperProject/agora
   - image_path: /assets/img/blockchain/blockchain-th.png
     title: "Blockchain Tech Talk"
     excerpt: "Presentation on the blockchain and it's impact on the modern economy."
@@ -64,6 +72,7 @@ feature_row:
 <a name="portfolio"></a>
 
 <h1>Portfolio</h1>
+Below are a list of current projects (denoted with **) and past projects.
 
 {% include feature_row id="portfolio" type="center" %}
 
