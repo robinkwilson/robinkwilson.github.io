@@ -37,7 +37,7 @@ $type-size-8 : 0.625em;  // ~10px
   //border-radius: 0px;
 }
 
-.blog360 img {
+.cover img {
   object-fit: cover;
 }
 
@@ -53,7 +53,7 @@ $type-size-8 : 0.625em;  // ~10px
   font-size: 0.8em;
 }
 
-.archive__item-body a  {
+.archive__item-body .link-title {
   border-bottom: none;
   text-decoration: none;
   color: #494e52;
@@ -63,3 +63,26 @@ $type-size-8 : 0.625em;  // ~10px
 .archive__item-teaser img{
   object-fit: cover;
 }
+
+
+@media (min-width: 37.5em){
+  figure.third>a,
+    img {
+      width:calc(25% - 0.5em)
+    }
+}
+
+@media (max-width: 37.5em){
+  figure.third>a,
+    img {
+      width:calc(50% - 0.5em)
+    }
+}
+
+// TODO scaling to 33.3333
+// @media (max-width: 37.5em) and ({
+//   figure.third>a,
+//     img {
+//       width:calc(50% - 0.5em)
+//     }
+// }

@@ -33,7 +33,7 @@ Blog 360 was built in 3 days on a solo hackathon project. I explore what the web
 
 <h2>Screenshots</h2>
 
-{% include gallery caption="Blog 360 screenshots." class="blog360" %}
+{% include gallery caption="Blog 360 screenshots." class="cover" %}
 
 <a name="presentation"></a>
 

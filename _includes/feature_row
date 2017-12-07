@@ -52,7 +52,7 @@
         <div class="archive__item-body">
 
           {% if f.title_url %}
-            <a href="{{f_title_url}}">
+            <a href="{{f_title_url}}" class="link-title">
           {% endif %}
 
             {% if f.title %}

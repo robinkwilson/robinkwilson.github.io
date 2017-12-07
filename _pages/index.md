@@ -2,7 +2,7 @@
 title: "Welcome"
 layout: single
 permalink: /
-date: 2016-03-23T11:48:41-04:00
+date: 2017-12-7
 author_profile: true
 header:
   overlay_color: "#000"
@@ -13,47 +13,52 @@ header:
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "Hi, I'm Robin. I'm a full stack engineer with a background in business and overall improver of processes. Efficiency is my middle name and I strive to fix any and all inefficiencies."
 portfolio:
-  - excerpt: 'Below are a list of current and past JavaScript projects.'
+  - excerpt: 'Below are a list of current (denoted with "**") and past projects.'
 feature_row:
   - image_path: /assets/img/bitcoin/bitcoin_1_th.png
     alt: "placeholder image 1"
-    title: "Bitcoin-VR"
-    excerpt: "Bitcoin transaction visualization using React-VR and socket.io."
+    title: "Bitcoin-VR**"
+    excerpt: "Deployed Bitcoin transaction visualization using React-VR and socket.io."
     image_url: /bitcoinvr/
     title_url: /bitcoinvr/
     buttons:
-    - btn_label: "Read More"
+    - btn_label: "Visit Site"
       btn_class: "btn--primary"
-      url: /bitcoinvr/
-    - btn_label: "Presentation"
-      btn_class: "btn--primary"
-      url: /bitcoinvr/
-  - image_path: assets/img/robinHeadshot1_thumbnail.jpg
+      url: https://bitcoin-vr.github.io/
+  - image_path: assets/img/datavr/datavr_1.png
     alt: "placeholder image 1"
-    title: "Data-VR "
-    excerpt: "Final Project at Fullstack Academy. Dove into visualizing data in virtual reality using React-VR."
+    title: "Data-VR"
+    excerpt: "Exploration into VR data visualizations and the early bitcoin-vr."
     image_url: /datavr/
     title_url: /datavr/
+    buttons:
+    - btn_label: "Presentation"
+      btn_class: "btn--primary"
+      url: /datavr/#presentation
   - image_path: /assets/img/blog360/blog360_1.png
     alt: "placeholder image 2"
     title: "Blog360"
-    excerpt: "Three day Hackathon project experimenting with a blog viewed in a virtual reality."
-    url: /blog360/
+    excerpt: "Three day Hackathon project experimenting with the web viewed in VR."
     image_url: /blog360/
     title_url: /blog360/
-    btn_label: "Watch"
-    btn_class: "btn--primary"
-  - image_path: /assets/img/agoraSS/agora_1.png
-    title: "Agora"
-    url: /agora/
+    buttons:
+    - btn_label: "Presentation"
+      btn_class: "btn--primary"
+      url: /blog360/#presentation
+  - image_path: /assets/img/agoraSS/agora_th.png
+    title: "Agora, Chairs!"
     image_url: /agora/
     title_url: /agora/
-    excerpt: "The classiest chair selling e-commerce site **not** listed on the web. Created using React, Express.js, Node.js, sockets."
-  - image_path: /assets/img/robinHeadshot1_thumbnail.jpg
+    excerpt: "The classiest chair selling e-commerce site built using React, Node.js, and bootstrap."
+  - image_path: /assets/img/blockchain/blockchain-th.png
     title: "Blockchain Tech Talk"
-    excerpt: "The classiest chair selling e-commerce site **not** listed on the web. Created using React, Express.js, Node.js, sockets."
+    excerpt: "Presentation on the blockchain and it's impact on the modern economy."
     image_url: /blockchain/
     title_url: /blockchain/
+    buttons:
+    - btn_label: "Presentation"
+      btn_class: "btn--primary"
+      url: /blockchain/#presentation
 ---
 
 <a name="portfolio"></a>
