@@ -19,11 +19,15 @@ feature_row:
     alt: "placeholder image 1"
     title: "Bitcoin-VR"
     excerpt: "Bitcoin transaction visualization using React-VR and socket.io."
-    url: /bitcoinvr/
     image_url: /bitcoinvr/
     title_url: /bitcoinvr/
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+    buttons:
+    - btn_label: "Read More"
+      btn_class: "btn--primary"
+      url: /bitcoinvr/
+    - btn_label: "Presentation"
+      btn_class: "btn--primary"
+      url: /bitcoinvr/
   - image_path: assets/img/robinHeadshot1_thumbnail.jpg
     alt: "placeholder image 1"
     title: "Data-VR "

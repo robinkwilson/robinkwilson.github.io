@@ -46,7 +46,7 @@
             {% if f.image_url %}
               </a>
             {% endif %}
-          </div>
+            </div>
         {% endif %}
 
         <div class="archive__item-body">
@@ -72,6 +72,21 @@
           {% if f.url %}
             <p><a href="{{ f_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
           {% endif %}
+
+          {% if f.buttons %}
+            {% for b in f.buttons %}
+
+              {% if b.url contains "://" %}
+                {% capture b_url %}{{ b.url }}{% endcapture %}
+              {% else %}
+                {% capture b_url %}{{ b.url | absolute_url }}{% endcapture %}
+              {% endif %}
+
+              <p><a href="{{ b_url }}" class="btn {{ b.btn_class }}">{{ b.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+
+            {% endfor %}
+          {% endif %}
+
         </div>
       </div>
     </div>

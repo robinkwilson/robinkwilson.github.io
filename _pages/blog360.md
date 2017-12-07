@@ -35,6 +35,8 @@ Blog 360 was built in 3 days on a solo hackathon project. I explore what the web
 
 {% include gallery caption="Blog 360 screenshots." class="blog360" %}
 
+<a name="presentation"></a>
+
 <h2>Presentation</h2>
 
 Short 4 minute presentation of the navigation, UI, and fun 360 content.
@@ -51,4 +53,4 @@ Short 4 minute presentation of the navigation, UI, and fun 360 content.
 
 <h2>Conclusion</h2>
 
-Overall a fantastic experience. Being able to get a navigatable product in no time was gratifying. Next time, I would plan out the structure of the React-VR components once I hammer down the general UX. So it's easier to integrate other content.
+Overall a fantastic experience. Being able to get a navigatable product in no time was gratifying. Next time, I would plan out the structure of the React-VR components once I hammer down the general UX. So it's easier to integrate additional content.
