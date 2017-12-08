@@ -70,7 +70,7 @@
           {% endif %}
 
           {% if f.url %}
-            <p><a href="{{ f_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+            <a href="{{ f_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
           {% endif %}
 
           {% if f.buttons %}
@@ -82,7 +82,7 @@
                 {% capture b_url %}{{ b.url | absolute_url }}{% endcapture %}
               {% endif %}
 
-              <p><a href="{{ b_url }}" class="btn {{ b.btn_class }}">{{ b.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+              <a href="{{ b_url }}" class="btn {{ b.btn_class }}">{{ b.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
 
             {% endfor %}
           {% endif %}

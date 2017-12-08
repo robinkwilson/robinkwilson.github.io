@@ -48,9 +48,9 @@ Short 4 minute presentation of the navigation, UI, and fun 360 content.
 1. Refactor
 2. Integrate a redux store
 3. Add back-end for storing blog posts
-4. Create 2D interface for multiple users to create their own
+4. Create 2D interface for other people to create their own content
 5. Plug this into large blog websites
 
-<h2>Conclusion</h2>
+<h2>Challenges and Take-Aways</h2>
 
 Overall a fantastic experience. Being able to get a navigatable product in no time was gratifying. Next time, I would plan out the structure of the React-VR components once I hammer down the general UX. So it's easier to integrate additional content.
