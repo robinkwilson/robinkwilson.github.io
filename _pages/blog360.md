@@ -54,4 +54,4 @@ Short 4 minute presentation of the navigation, UI, and fun 360 content.
 
 <h2>Challenges and Take-Aways</h2>
 
-Overall a fantastic experience. Being able to get a navigatable product in no time was gratifying. Next time, I would plan out the structure of the React-VR components once I hammer down the general UX. So it's easier to integrate additional content.
+Overall building this application was a fantastic experience. Being able to create a navigatable product in no time was gratifying. Next time, I would plan out the structure of the React-VR components once I hammer down the general UX. So it's easier to integrate additional content.
