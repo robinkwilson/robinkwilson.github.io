@@ -2,6 +2,7 @@
 layout: single
 title: Blog 360
 permalink: /blog360/
+author_profile: true
 # header:
 #   image: /assets/img/agoraSS/agora_1.png
 #   teaser: /assets/img/pragueCastle_thumbnail.png

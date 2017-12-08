@@ -81,7 +81,7 @@ Below are a list of current projects (denoted with **) and past projects.
 
   <p>I have the theory and experience of a CS Major and the practical coding skills, drive, and fast prototyping abilities of a coding bootcamp graduate. I graduated with a BS in Computer Science, a BA in Business Leadership, and a minor in Studio Art. After 3 years in business roles automating my jobs to work more efficiently, I decided to pursue coding as a full-time career with affirmation that I have the technical mindset, drive to learn, and tenacity to never give up that a coder needs to succeed.</p>
 
-  <p>When I'm not utilizing the passion and drive of a 26-year-old cracking into software development as a career, I'm outside hiking, running, reading, petting the neighborhood cats, and joking about petting the neighborhood cats.</p>
+  <p>When I'm not utilizing the passion and drive of an optimistic 26-year-old returning to software development as a career, I'm outside hiking, running, reading, petting the neighborhood cats, and joking about petting the neighborhood cats.</p>
 
 <h2 id="resume">Resume and CV</h2>
 
