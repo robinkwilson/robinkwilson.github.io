@@ -30,10 +30,13 @@
       <div class="archive__item">
         {% if f.image_path %}
           <div class="archive__item-teaser">
+            <div class="learn-more-container">
 
             {% if f.image_url %}
               <a href="{{f_image_url}}">
             {% endif %}
+
+            <div class="learn-more-overlay">
 
               <img src=
                 {% if f.image_path contains "://" %}
@@ -43,16 +46,21 @@
                 {% endif %}
               alt="{% if f.alt %}{{ f.alt }}{% endif %}">
 
+              <div class="learn-more-text">Learn More</div>
+            </div>
             {% if f.image_url %}
               </a>
             {% endif %}
-          </div>
+
+            </div>
+
+            </div>
         {% endif %}
 
         <div class="archive__item-body">
 
           {% if f.title_url %}
-            <a href="{{f_title_url}}">
+            <a href="{{f_title_url}}" class="link-title">
           {% endif %}
 
             {% if f.title %}
@@ -70,8 +78,23 @@
           {% endif %}
 
           {% if f.url %}
-            <p><a href="{{ f_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+            <a href="{{ f_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
           {% endif %}
+
+          {% if f.buttons %}
+            {% for b in f.buttons %}
+
+              {% if b.url contains "://" %}
+                {% capture b_url %}{{ b.url }}{% endcapture %}
+              {% else %}
+                {% capture b_url %}{{ b.url | absolute_url }}{% endcapture %}
+              {% endif %}
+
+              <a href="{{ b_url }}" class="btn {{ b.btn_class }}">{{ b.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+
+            {% endfor %}
+          {% endif %}
+
         </div>
       </div>
     </div>

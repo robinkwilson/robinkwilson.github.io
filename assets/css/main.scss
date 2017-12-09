@@ -2,28 +2,28 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-/* type scale */
-$type-size-1 : 2em;  // ~39.056px
-$type-size-2 : 1em;  // ~31.248px
-$type-size-3 : 1em;  // ~25.008px
-$type-size-4 : 1em;   // ~20px
-$type-size-5 : 1em;      // ~16px
-$type-size-6 : 0.75em;   // ~12px
-$type-size-7 : 0.6875em; // ~11px
-$type-size-8 : 0.625em;  // ~10px
-
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
 
-.page__content p {
-  margin: 0 0 0.5em;
-}
+body{
+  font-size: 16px;
 
-.btn--primary {
-  padding: 0.25em 0.5em;
+
+  @include breakpoint($medium) {
+    font-size: 18px;
+  }
+
+  @include breakpoint($large) {
+    font-size: 18px;
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 18px;
+  }
+
 }
 
 .page__content .archive__item-title {
@@ -31,29 +31,36 @@ $type-size-8 : 0.625em;  // ~10px
   padding-bottom: 0.1em;
 }
 
+div.feature__item {
+  font-size: inherit;
+}
+
+.archive__item-excerpt {
+  font-size: inherit;
+}
+
+.btn {
+  font-size: inherit;
+}
+
+.sidebar h3 {
+  margin-bottom: 10px;
+}
+
 .third img {
   object-fit: scale-down;
   border: #898c8f solid 1px; // TODO needs to be lighter
-  //border-radius: 0px;
 }
 
-.blog360 img {
+.cover img {
   object-fit: cover;
-}
-
-.page__content p, .page__content li, .page__content dl {
-  font-size: 0.8em;
 }
 
 .author__avatar img {
   max-width: 150px;
 }
 
-.archive__item-title {
-  font-size: 0.8em;
-}
-
-.archive__item-body a  {
+.archive__item-body .link-title {
   border-bottom: none;
   text-decoration: none;
   color: #494e52;
@@ -62,4 +69,85 @@ $type-size-8 : 0.625em;  // ~10px
 
 .archive__item-teaser img{
   object-fit: cover;
+}
+
+
+@media (min-width: 37.5em){
+  figure.third>a,
+    img {
+      width:calc(25% - 0.5em)
+    }
+}
+
+@media (max-width: 37.5em){
+  figure.third>a,
+    img {
+      width:calc(50% - 0.5em)
+    }
+}
+
+// TODO scaling to 33.3333
+// @media (max-width: 37.5em) and ({
+//   figure.third>a,
+//     img {
+//       width:calc(50% - 0.5em)
+//     }
+// }
+
+@media (min-width: 80em){
+  .sidebar {
+    width: calc(300px - 2em);
+  }
+}
+
+.author__urls-wrapper button {
+  align-items: flex-end;
+}
+
+//** Image Overlay Options **//
+
+.learn-more-text {
+  color: #494e52;
+  position: absolute;
+  font-weight: bold;
+  width: relative;
+  text-align: center;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transition: .5s ease;
+  -webkit-transition: .5s ease;
+  -o-transition: .5s ease;
+  transition: .5s ease;
+}
+
+.learn-more-overlay {
+  position: relative;
+  float: left;
+  cursor: pointer;
+}
+
+.learn-more-overlay:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: none;
+  -moz-transition: background .5s ease;
+  -webkit-transition: background .5s ease;
+  -o-transition: background .5s ease;
+  transition: background .5s ease;
+}
+
+.learn-more-overlay:hover:before{
+  background: rgba(255,255,255, 0.8);
+}
+
+.learn-more-overlay:hover .learn-more-text {
+  opacity: 1;
 }
