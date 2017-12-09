@@ -11,29 +11,31 @@ header:
 excerpt: "I'm passionate about code, efficiency, and business."
 feature_row:
   - image_path: /assets/img/bitcoin/bitcoin_1_th.png
-    alt: "placeholder image 1"
+    alt: "Bitcoin-VR project thumbnail"
     title: "Bitcoin-VR**"
     excerpt: "Deployed Bitcoin transaction visualization using React-VR and socket.io."
     image_url: /bitcoinvr/
     title_url: /bitcoinvr/
   - image_path: assets/img/datavr/datavr_1.png
-    alt: "placeholder image 1"
+    alt: "Data-VR project thumbnail"
     title: "Data-VR"
     excerpt: "Exploration into VR data visualizations and the early bitcoin-vr."
     image_url: /datavr/
     title_url: /datavr/
   - image_path: /assets/img/blog360/blog360_1.png
-    alt: "placeholder image 2"
+    alt: "Blog360 project thumbnail"
     title: "Blog360"
     excerpt: "Three day Hackathon project experimenting with the web viewed in VR."
     image_url: /blog360/
     title_url: /blog360/
   - image_path: /assets/img/agoraSS/agora_th.png
+    alt: "Agora project thumbnail"
     title: "Agora, Chairs!"
     image_url: /agora/
     title_url: /agora/
     excerpt: "The classiest chair selling e-commerce site built using React, Node.js, and bootstrap."
   - image_path: /assets/img/blockchain/blockchain-th.png
+    alt: "Blockchain tech talk project thumbnail"
     title: "Blockchain Tech Talk"
     excerpt: "Presentation on the blockchain and it's impact on the modern economy."
     image_url: /blockchain/
@@ -45,12 +47,13 @@ Below are a list of current projects (denoted with **) and past projects.
 
 {% include feature_row %}
 
-  <h2 id="about">About Me</h2>
-  <p>I build web applications using JavaScript web technologies. My passion projects incorporate VR/AR, blockchain, and automations. I solve technical challenges and strive for the most efficient solution.</p>
+<h2 id="about">About Me</h2>
 
-  <p>I have the theory and experience of a CS Major and the practical coding skills, drive, and fast prototyping abilities of a coding bootcamp graduate. I graduated with a BS in Computer Science, a BA in Business Leadership, and a minor in Studio Art. After 3 years in business roles automating my jobs to work more efficiently, I decided to pursue coding as a full-time career with affirmation that I have the technical mindset, drive to learn, and tenacity to never give up that a coder needs to succeed.</p>
+<p>I build web applications using JavaScript web technologies. My passion projects incorporate VR/AR, blockchain, and automations. I solve technical challenges and strive for the most efficient solution.</p>
 
-  <p>When I'm not utilizing the passion and drive of an optimistic 26-year-old returning to software development as a career, I'm outside hiking, running, reading, petting the neighborhood cats, and joking about petting the neighborhood cats.</p>
+<p>I have the theory and experience of a CS Major and the practical coding skills, drive, and fast prototyping abilities of a coding bootcamp graduate. I graduated with a BS in Computer Science, a BA in Business Leadership, and a minor in Studio Art. After 3 years in business roles automating my jobs to work more efficiently, I decided to pursue coding as a full-time career with affirmation that I have the technical mindset, drive to learn, and tenacity to never give up that a coder needs to succeed.</p>
+
+<p>When I'm not utilizing the passion and drive of an optimistic 26-year-old returning to software development as a career, I'm outside hiking, running, reading, petting the neighborhood cats, and joking about petting the neighborhood cats.</p>
 
 <h2 id="resume">Resume and CV</h2>
 

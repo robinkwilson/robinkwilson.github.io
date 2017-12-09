@@ -9,28 +9,28 @@ author_profile: true
 gallery:
   - url: /assets/img/blog360/blog360_1.png
     image_path: assets/img/blog360/blog360_1.png
-    alt: "Agora home page"
+    alt: "Blog30 home view, Welcome to Blog360 on middle panel, Seattle and Oakland on left panel, Place menu on right, world map with waypoints on bottom panel"
   - url: /assets/img/blog360/blog360_2.png
     image_path: assets/img/blog360/blog360_2.png
-    alt: "placeholder image 1"
+    alt: "Blog30 Eastern Europe landing page, background of Prague Castle, world map highlighting Eastern Europe, and Germany and filler on right panel"
   - url: /assets/img/blog360/blog360_3.png
     image_path: assets/img/blog360/blog360_3.png
-    alt: "placeholder image 2"
+    alt: "Blog30 Germany view, background is the Berlin wall with different Germany photos on left to select"
   - url: /assets/img/blog360/blog360_4.png
     image_path: assets/img/blog360/blog360_4.png
-    alt: "placeholder image 4"
+    alt: "Blog30 the Hide menu feature, highlighting hide button"
   - url: /assets/img/blog360/blog360_5.png
     image_path: assets/img/blog360/blog360_5.png
-    alt: "placeholder image 3"
+    alt: "Blog30 the Hide panel feature, hide button clicked, button says show"
   - url: /assets/img/blog360/blog360_6.png
     image_path: assets/img/blog360/blog360_6.png
-    alt: "placeholder image 3"
+    alt: "Blog30 the Hide panel feature, if you're lost just look down, there's another show button"
   - url: /assets/img/blog360/blog360_7.png
     image_path: assets/img/blog360/blog360_7.png
-    alt: "placeholder image 3"
+    alt: "Blog30 street art of a detailed bull in black and white with red"
   - url: /assets/img/blog360/blog360_8.png
     image_path: assets/img/blog360/blog360_8.png
-    alt: "placeholder image 3"
+    alt: "Blog30 street art of a detailed dragon"
 ---
 
 Blog 360 was built in 3 days on a solo hackathon project. I explore what the web looks like in virtual reality, a topic I've been looking to explore for a long time.
