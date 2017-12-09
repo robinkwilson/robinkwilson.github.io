@@ -16,9 +16,9 @@ gallery:
   - url: /assets/img/blog360/blog360_3.png
     image_path: assets/img/blog360/blog360_3.png
     alt: "placeholder image 2"
-  # - url: /assets/img/blog360/blog360_4.png TODO ADD BETTER HIDE/SHOW DISPLAY
-  #   image_path: assets/img/blog360/blog360_4.png
-  #   alt: "placeholder image 4"
+  - url: /assets/img/blog360/blog360_4.png
+    image_path: assets/img/blog360/blog360_4.png
+    alt: "placeholder image 4"
   - url: /assets/img/blog360/blog360_5.png
     image_path: assets/img/blog360/blog360_5.png
     alt: "placeholder image 3"
@@ -27,6 +27,9 @@ gallery:
     alt: "placeholder image 3"
   - url: /assets/img/blog360/blog360_7.png
     image_path: assets/img/blog360/blog360_7.png
+    alt: "placeholder image 3"
+  - url: /assets/img/blog360/blog360_8.png
+    image_path: assets/img/blog360/blog360_8.png
     alt: "placeholder image 3"
 ---
 
@@ -48,7 +51,7 @@ Short 4 minute presentation of the navigation, UI, and fun 360 content.
 
 <h2>Future Expansion</h2>
 
-1. Refactor
+1. Refactor -- Let's be honest, it was built in 3 days!
 2. Integrate a redux store
 3. Add back-end for storing blog posts
 4. Create 2D interface for other people to create their own content

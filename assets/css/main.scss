@@ -2,16 +2,6 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-/* type scale */
-// $type-size-1 : 2em;  // ~39.056px
-// $type-size-2 : 1em;  // ~31.248px
-// $type-size-3 : 1em;  // ~25.008px
-// $type-size-4 : 1em;   // ~20px
-// $type-size-5 : 1em;      // ~16px
-// $type-size-6 : 0.75em;   // ~12px
-// $type-size-7 : 0.6875em; // ~11px
-// $type-size-8 : 0.625em;  // ~10px
-
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
@@ -35,14 +25,6 @@ body{
   }
 
 }
-
-// .page__content p {
-//   margin: 0 0 0.5em;
-// }
-
-// .btn--primary {
-//   padding: 0.25em 0.5em;
-// }
 
 .page__content .archive__item-title {
   margin-top: 0.5em;
@@ -68,24 +50,15 @@ div.feature__item {
 .third img {
   object-fit: scale-down;
   border: #898c8f solid 1px; // TODO needs to be lighter
-  //border-radius: 0px;
 }
 
 .cover img {
   object-fit: cover;
 }
 
-// .page__content p, .page__content li, .page__content dl {
-//   font-size: 0.8em;
-// }
-
 .author__avatar img {
   max-width: 150px;
 }
-
-// .archive__item-title {
-//   font-size: 0.8em;
-// }
 
 .archive__item-body .link-title {
   border-bottom: none;
@@ -131,14 +104,14 @@ div.feature__item {
   align-items: flex-end;
 }
 
+//** Image Overlay Options **//
+
 .learn-more-text {
-  // background-color: white;
   color: #494e52;
   position: absolute;
   font-weight: bold;
   width: relative;
   text-align: center;
-  // font-size: 20px;
   opacity: 0;
   top: 50%;
   left: 50%;
@@ -149,7 +122,6 @@ div.feature__item {
   -o-transition: .5s ease;
   transition: .5s ease;
 }
-
 
 .learn-more-overlay {
   position: relative;
