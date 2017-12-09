@@ -30,10 +30,13 @@
       <div class="archive__item">
         {% if f.image_path %}
           <div class="archive__item-teaser">
+            <div class="learn-more-container">
 
             {% if f.image_url %}
               <a href="{{f_image_url}}">
             {% endif %}
+
+            <div class="learn-more-overlay">
 
               <img src=
                 {% if f.image_path contains "://" %}
@@ -43,9 +46,14 @@
                 {% endif %}
               alt="{% if f.alt %}{{ f.alt }}{% endif %}">
 
+              <div class="learn-more-text">Learn More</div>
+            </div>
             {% if f.image_url %}
               </a>
             {% endif %}
+
+            </div>
+
             </div>
         {% endif %}
 

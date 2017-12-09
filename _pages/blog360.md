@@ -32,6 +32,8 @@ gallery:
 
 Blog 360 was built in 3 days on a solo hackathon project. I explore what the web looks like in virtual reality, a topic I've been looking to explore for a long time.
 
+Check out the source code: [github.com/bitcoin-vr](https://github.com/robin-k-wilson/Blog360)
+
 <h2>Screenshots</h2>
 
 {% include gallery caption="Blog 360 screenshots." class="cover" %}
