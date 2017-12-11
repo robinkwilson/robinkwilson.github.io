@@ -60,10 +60,36 @@ Below are a list of current projects (denoted with **) and past projects.
 <a href="/assets/img/RobinKWilson_ResumeSoftwareEngineer_12-2-2017.pdf" download="RobinKWilson_Resume"><button class="btn btn--primary">Resume Download</button></a>
 <a href="/assets/img/RobinKWilson_CVSoftwareEngineer_12-9-2017.pdf" download="RobinKWilson_CV"><button class="btn btn--primary">CV Download</button></a>
 
+<script type="text/javascript">var submitted=false;</script>
+
 <h2 id="contact">Contact</h2>
 
 I'm always looking to collaborate on interesting projects!
 
-**Email:** robin.kath.wilson@gmail.com
-
 **LinkedIn:** [linkedin.com/in/robinkwilson25](https://www.linkedin.com/in/robinkwilson25/)
+
+
+ <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {alert('Thanks for reaching out! Your form has been submitted successfully.'); window.location='/';}"></iframe>
+
+<form name="contact" method="post" action="https://docs.google.com/forms/d/e/1FAIpQLSet8fvT5o_ySm-t8AhYzSYupVEnMF09ORL5o3R5S1WTb9Zdwg/formResponse" id="contact-form" target="hidden_iframe"
+onsubmit="submitted=true;">
+
+<h3>Name*</h3>
+<input name="entry.1240242567" type="text">
+
+<h3>Email*</h3>
+<input name="entry.1349114668" type="text">
+
+<h3 class="antispam">Leave this empty*</h3>
+<input class="antispam" type="text" name="url" />
+
+<h3>Subject*</h3>
+<input name="entry.337598320" type="text">
+
+<h3>Message*</h3>
+<textarea name="entry.954936580" rows="7" cols="50"></textarea>
+
+<button class="btn btn--primary" value="Submit" type="submit">Submit</button>
+
+</form>
+

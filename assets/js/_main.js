@@ -8,6 +8,8 @@
    jQuery plugin settings and other scripts
    ========================================================================== */
 
+  var submitted=false;
+
    $(document).ready(function(){
 
       // Sticky footer
