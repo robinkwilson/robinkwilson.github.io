@@ -57,6 +57,8 @@ defaults:
     values:
       image: true
 
+head_scripts:
+  - /assets/js/form.js
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

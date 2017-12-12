@@ -42,7 +42,7 @@ feature_row:
     title_url: /blockchain/
 ---
 
-<script type="text/javascript">var submitted=false;</script>
+<noscript><p class="notice--warning">Enable JavaScript for best experience! Oh... Not interested? Welp, as you were friend! ¯\_(ツ)_/¯</p></noscript>
 
 <h2 id="portfolio">Portfolio</h2>
 Below are a list of current projects (denoted with **) and past projects.
@@ -71,98 +71,24 @@ I'm always looking to collaborate on interesting projects!
 **LinkedIn:** [linkedin.com/in/robinkwilson25](https://www.linkedin.com/in/robinkwilson25/)
 
 
- <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {alert('Thanks for reaching out! Your form has been submitted successfully.'); window.location='/';}"></iframe>
+ <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) { window.location='/thankyou/';}"></iframe>
+
+<noscript>
+
+<div class="notice--warning">
+
+<p>Oh, hello "not using JavaScript person"!</p>
+
+<p>To send a message, you need to enable JavaScript. Otherwise, send your message via LinkedIn. You seem cool.</p>
+</div>
+
+</noscript>
+
+<div id="contact-container"></div>
 
 <script type="text/javascript">
-function checkForm() {
 
-  var validForm = true;
-  //let str = '';
-  var form = document.forms['contact-form'];
-  validForm = validElem(form['url'], false, true) && validForm; //antispam
-  validForm = validElem(form['entry.1240242567'], false, false) && validForm;// name
-  validForm = validElem(form['entry.1349114668'], true, false) && validForm; // email
-  validForm = validElem(form['entry.337598320'], false, false) && validForm; // subject
-  validForm = validElem(form['entry.954936580'], false, false) && validForm; // message
-
-  if(validForm == true) {
-    submitted = true;
-    return true; //true
-  }
-  return false;
-}
-
-function validElem(elem, isEmail, isSpam) {
-  if(isSpam && elem.value.length > 0) {
-    alert("Form is submitted!");
-    return false;
-  } else if (isSpam){
-    return true;
-  }
-  if(elem.value.length == 0) {
-    addInvalidClass(elem);
-    return false;
-  }
-  if(isEmail && !validateEmail(elem.value)) {
-    addInvalidClass(elem);
-    return false;
-  }
-  elem.classList.remove('invalid');
-  return true;
-}
-
-function addInvalidClass(elem) {
-  elem.classList.add('invalid');
-}
-
-//***
-// window.onbeforeunload = function() {
-//   if(!modalIsOpen)
-//     document.querySelector('iframe').remove();
-// };
-
-// function removeInvalidClass (form) {
-//   let elements = form.elements;
-
-//   for (let i = 0; i )
-//   var elements = document.getElementById("my-form").elements;
-
-// for (var i = 0, element; element = elements[i++];) {
-//     if (element.type === "text" && element.value === "")
-//         console.log("it's an empty textfield")
-// }
-// }
-
-function validateEmail(email) {
-  if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email))
-  {
-    alert("Valid email address!");
-    return true;
-  }
-  alert("You have entered an invalid email address!");
-  return false;
-}
+document.write(
+      '<form name="contact" onsubmit="return checkForm();" action="https://docs.google.com/forms/d/e/1FAIpQLSet8fvT5o_ySm-t8AhYzSYupVEnMF09ORL5o3R5S1WTb9Zdwg/formResponse" method="post" id="contact-form" target="hidden_iframe"><h3>Name*</h3><input name="entry.1240242567" type="text"><h3>Email*</h3><input name="entry.1349114668" type="text"><h3 class="antispam">Leave this empty*</h3><input class="antispam" type="text" name="url" /><h3>Subject*</h3><input name="entry.337598320" type="text"><h3>Message*</h3><textarea name="entry.954936580" rows="7" cols="50"></textarea><button class="btn btn--primary" value="Submit" type="submit">Submit</button></form>');
 
 </script>
-
-<form name="contact" onsubmit="return checkForm();" action="https://docs.google.com/forms/d/e/1FAIpQLSet8fvT5o_ySm-t8AhYzSYupVEnMF09ORL5o3R5S1WTb9Zdwg/formResponse" method="post" id="contact-form" target="hidden_iframe">
-
-<h3>Name*</h3>
-<input name="entry.1240242567" type="text">
-
-<h3>Email*</h3>
-<input name="entry.1349114668" type="text">
-
-<h3 class="antispam">Leave this empty*</h3>
-<input class="antispam" type="text" name="url" />
-
-<h3>Subject*</h3>
-<input name="entry.337598320" type="text">
-
-<h3>Message*</h3>
-<textarea name="entry.954936580" rows="7" cols="50"></textarea>
-
-<button class="btn btn--primary" value="Submit" type="submit">Submit</button>
-
-</form>
-
