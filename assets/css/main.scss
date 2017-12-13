@@ -9,15 +9,30 @@
 
 
 body{
+
+  // Font-size Breakpoint Customizations
+
   font-size: 16px;
 
+  @include breakpoint($small) {
+    font-size: 18px;
+    .footer-note {
+      width: 100%;
+    }
+  }
 
   @include breakpoint($medium) {
     font-size: 18px;
+    .footer-note {
+      width: 40%;
+    }
   }
 
   @include breakpoint($large) {
     font-size: 18px;
+    .footer-note {
+      width: 50%;
+    }
   }
 
   @include breakpoint($x-large) {
@@ -25,6 +40,8 @@ body{
   }
 
 }
+
+// Portfolio Collection
 
 .page__content .archive__item-title {
   margin-top: 0.5em;
@@ -43,17 +60,10 @@ div.feature__item {
   font-size: inherit;
 }
 
+// Author Profile
+
 .sidebar h3 {
   margin-bottom: 10px;
-}
-
-.third img {
-  object-fit: scale-down;
-  border: #898c8f solid 1px; // TODO needs to be lighter
-}
-
-.cover img {
-  object-fit: cover;
 }
 
 .author__avatar img {
@@ -71,6 +81,21 @@ div.feature__item {
   object-fit: cover;
 }
 
+// Collection Images
+
+.third img {
+  object-fit: scale-down;
+  border: #898c8f solid 1px; // TODO needs to be lighter
+}
+
+// Page with Cover Image Options //
+
+.cover img {
+  object-fit: cover;
+}
+
+
+// Collection of Images # Per Row
 
 @media (min-width: 37.5em){
   figure.third>a,
@@ -86,14 +111,6 @@ div.feature__item {
     }
 }
 
-// TODO scaling to 33.3333
-// @media (max-width: 37.5em) and ({
-//   figure.third>a,
-//     img {
-//       width:calc(50% - 0.5em)
-//     }
-// }
-
 @media (min-width: 80em){
   .sidebar {
     width: calc(300px - 2em);
@@ -104,7 +121,7 @@ div.feature__item {
   align-items: flex-end;
 }
 
-//** Image Overlay Options **//
+// Portfolio Image Overlay
 
 .learn-more-text {
   color: #494e52;
@@ -152,10 +169,7 @@ div.feature__item {
   opacity: 1;
 }
 
-
-.page__footer-copyright {
-  text-align: right;
-}
+// Contact Form //
 
 #contact-form h3 {
   margin-top: 1em;
@@ -169,11 +183,60 @@ div.feature__item {
   display:none;
 }
 
-
 .invalid {
   border: red solid 2px;
 }
 
+
+// Footer
+
 .page__footer {
   position: static;
+}
+
+.footer-container {
+  font-size: 0.75em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.footer-item {
+
+  h3 {
+    margin-bottom: 1em;
+    margin-top: 0px;
+  }
+  ul {
+    list-style: none;
+  }
+  li {
+    padding-left: 0.6em;
+  }
+  h2{
+    margin-top: 0em;
+  }
+  p>a {
+    color: #7dc2d6
+  }
+}
+
+.footer-contact {
+  h3 {
+    margin-bottom: 0.1em;
+    margin-top: 0.1em;
+  }
+  form {
+    padding-top: 0;
+  }
+}
+
+.page__footer footer {
+  margin-top: 1em;
+}
+
+.page__footer-copyright, .page__footer-follow {
+  text-align: right;
 }

@@ -2,8 +2,10 @@
    ** Used for reference only**
    ** True file is located inside Minimal Mistakes ruby gem, generally located away from the Jekyll files**
    ** Use 'bundle show minimal' to see the address on your computer**
+   ** Make the modifications with
 
-   Robin K Wilson modifications located // RKW
+   Robin K Wilson modifications located with // RKW
+   // Modifications used to make height = width, width calculated by CSS % of div
 
    jQuery plugin settings and other scripts
    ========================================================================== */
