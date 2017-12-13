@@ -24,9 +24,11 @@ github_username:  robin-k-wilson
 # Build settings
 markdown: kramdown
 theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 # minimal_mistakes_skin: "contrast"
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 include: ["_pages"]
 
