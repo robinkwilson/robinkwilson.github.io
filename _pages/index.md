@@ -2,7 +2,7 @@
 title: "Hi, I'm Robin"
 layout: single
 permalink: /
-date: 2017-12-7
+date: 2017-12-13
 author_profile: true
 header:
   overlay_color: "#000"
@@ -10,9 +10,9 @@ header:
   overlay_image: /assets/img/pragueCastle_thumbnail.jpg
 excerpt: "I'm passionate about code, efficiency, and business."
 feature_row:
-  - image_path: /assets/img/bitcoin/bitcoin_1_th.png
+  - image_path: /assets/img/bitcoin/bitcoin_th.jpeg
     alt: "Bitcoin-VR project thumbnail"
-    title: "Bitcoin-VR**"
+    title: "Bitcoin-VR"
     excerpt: "Deployed Bitcoin transaction visualization using React-VR and socket.io."
     image_url: /bitcoinvr/
     title_url: /bitcoinvr/
@@ -45,7 +45,6 @@ feature_row:
 <noscript><p class="notice--warning">Enable JavaScript for best experience! Oh... Not interested? Welp, as you were friend! ¯\_(ツ)_/¯</p></noscript>
 
 <h2 id="portfolio">Portfolio</h2>
-Below are a list of current projects (denoted with **) and past projects.
 
 {% include feature_row %}
 
