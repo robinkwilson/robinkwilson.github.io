@@ -79,7 +79,7 @@ I'm always looking to collaborate on interesting projects!
 
 <p>Oh, hello "not using JavaScript person"!</p>
 
-<p>To send a message, you need to enable JavaScript. Otherwise, send your message via LinkedIn. You seem cool.</p>
+<p>To send a message, you need to enable JavaScript. Otherwise, send your message via LinkedIn.</p>
 </div>
 
 </noscript>
