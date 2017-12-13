@@ -49,3 +49,22 @@ function validateEmail(email) {
   alert("You have entered an invalid email address!");
   return false;
 }
+
+
+$(document).ready(function () {
+
+  // RKW use jQuery to select images of collections and update the height
+  var updateSize = function () {
+    var imageContent = $(".archive__item-teaser").find('img');
+    var thirdImageContent = $(".third").find('img');
+    imageContent.css("height", imageContent.width());
+    thirdImageContent.css("height", thirdImageContent.width());
+  }
+
+  updateSize(); // RKW update the height of img
+
+
+  $(window).resize(function () {
+    updateSize();
+  });
+});
