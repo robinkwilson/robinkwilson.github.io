@@ -35,7 +35,7 @@ author:
   avatar: "/assets/img/robinHeadshot1_thumbnail.jpg"
   # bio: "My awesomeness can not be contained by a small biography."
   location: Oakland, CA
-  email: robin.kath.wilson@gmail.com
+  email: "hello"
   linkedin: robinkwilson25/
   github: robin-k-wilson
   uri: http://robinkwilson.com
@@ -57,6 +57,8 @@ defaults:
     values:
       image: true
 
+head_scripts:
+  - /assets/js/form.js
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

@@ -42,6 +42,8 @@ feature_row:
     title_url: /blockchain/
 ---
 
+<noscript><p class="notice--warning">Enable JavaScript for best experience! Oh... Not interested? Welp, as you were friend! ¯\_(ツ)_/¯</p></noscript>
+
 <h2 id="portfolio">Portfolio</h2>
 Below are a list of current projects (denoted with **) and past projects.
 
@@ -60,10 +62,33 @@ Below are a list of current projects (denoted with **) and past projects.
 <a href="/assets/img/RobinKWilson_ResumeSoftwareEngineer_12-2-2017.pdf" download="RobinKWilson_Resume"><button class="btn btn--primary">Resume Download</button></a>
 <a href="/assets/img/RobinKWilson_CVSoftwareEngineer_12-9-2017.pdf" download="RobinKWilson_CV"><button class="btn btn--primary">CV Download</button></a>
 
+<script type="text/javascript">var submitted=false;</script>
+
 <h2 id="contact">Contact</h2>
 
 I'm always looking to collaborate on interesting projects!
 
-**Email:** robin.kath.wilson@gmail.com
-
 **LinkedIn:** [linkedin.com/in/robinkwilson25](https://www.linkedin.com/in/robinkwilson25/)
+
+
+ <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) { window.location='/thankyou/';}"></iframe>
+
+<noscript>
+
+<div class="notice--warning">
+
+<p>Oh, hello "not using JavaScript person"!</p>
+
+<p>To send a message, you need to enable JavaScript. Otherwise, send your message via LinkedIn.</p>
+</div>
+
+</noscript>
+
+<div id="contact-container"></div>
+
+<script type="text/javascript">
+
+  document.write(
+    '<div id="contact-form-home">' + formHTML + '</div>');
+
+</script>
