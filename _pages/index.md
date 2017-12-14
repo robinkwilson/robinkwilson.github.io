@@ -8,7 +8,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.2"
   overlay_image: /assets/img/robinDesk.jpeg
-excerpt: "I'm passionate about cutting edge technology, code, efficiency, and business."
+excerpt: "I'm passionate about code, efficiency, and business."
 feature_row:
   - image_path: /assets/img/bitcoin/bitcoin_th.jpeg
     alt: "Bitcoin-VR project thumbnail"
