@@ -6,9 +6,9 @@ date: 2017-12-13
 author_profile: true
 header:
   overlay_color: "#000"
-  overlay_filter: "0.4"
-  overlay_image: /assets/img/pragueCastle_thumbnail.jpg
-excerpt: "I'm passionate about code, efficiency, and business."
+  overlay_filter: "0.2"
+  overlay_image: /assets/img/robinDesk.jpeg
+excerpt: "I'm passionate about cutting edge technology, code, efficiency, and business."
 feature_row:
   - image_path: /assets/img/bitcoin/bitcoin_th.jpeg
     alt: "Bitcoin-VR project thumbnail"
