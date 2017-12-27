@@ -67,9 +67,6 @@ feature_row:
 
 I'm always looking to collaborate on interesting projects!
 
-**LinkedIn:** [linkedin.com/in/robinkwilson25](https://www.linkedin.com/in/robinkwilson25/)
-
-
  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) { window.location='/thankyou/';}"></iframe>
 
 <noscript>
@@ -78,7 +75,7 @@ I'm always looking to collaborate on interesting projects!
 
 <p>Oh, hello "not using JavaScript person"!</p>
 
-<p>To send a message, you need to enable JavaScript. Otherwise, send your message via LinkedIn.</p>
+<p>To send a message, you need to enable JavaScript. Otherwise, send your message via LinkedIn: [linkedin.com/in/robinkwilson25](https://www.linkedin.com/in/robinkwilson25/).</p>
 </div>
 
 </noscript>

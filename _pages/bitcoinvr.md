@@ -4,18 +4,18 @@ title: Bitcoin-VR
 permalink: /bitcoinvr/
 author_profile: true
 gallery:
-- url: /assets/img/bitcoin/bitcoin_1.png
-image_path: assets/img/bitcoin/bitcoin_1.png
-alt: "Bitcoin-VR screenshot with a red, green, yellow balloon transactions"
-- url: /assets/img/bitcoin/bitcoin_2.png
-image_path: assets/img/bitcoin/bitcoin_2.png
-alt: "Bitcoin-VR screenshot with golden blimp and balloon data readout"
-- url: /assets/img/bitcoin/bitcoin_3.png
-image_path: assets/img/bitcoin/bitcoin_3.png
-alt: "Bitcoin-VR screenshot reading golden blimp readout for 80 BTC transaction size"
-- url: /assets/img/bitcoin/bitcoin_4.png
-image_path: assets/img/bitcoin/bitcoin_4.png
-alt: "Bitcoin-VR screenshot with multiple colored balloons floating up into the sky"
+  - url: /assets/img/bitcoin/bitcoin_1.png
+    image_path: assets/img/bitcoin/bitcoin_1.png
+    alt: "Bitcoin-VR screenshot with a red, green, yellow balloon transactions"
+  - url: /assets/img/bitcoin/bitcoin_2.png
+    image_path: assets/img/bitcoin/bitcoin_2.png
+    alt: "Bitcoin-VR screenshot with golden blimp and balloon data readout"
+  - url: /assets/img/bitcoin/bitcoin_3.png
+    image_path: assets/img/bitcoin/bitcoin_3.png
+    alt: "Bitcoin-VR screenshot reading golden blimp readout for 80 BTC transaction size"
+  - url: /assets/img/bitcoin/bitcoin_4.png
+    image_path: assets/img/bitcoin/bitcoin_4.png
+    alt: "Bitcoin-VR screenshot with multiple colored balloons floating up into the sky"
 ---
 
 A real-time Bitcoin visualization, every Bitcoin transaction made around the world displays as a hot-air balloon or zeppelin.
