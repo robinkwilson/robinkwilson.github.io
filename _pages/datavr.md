@@ -4,9 +4,6 @@ title: Data-VR
 permalink: /datavr/
 author_profile: true
 excerpt: ""
-# header:
-#   image: /assets/img/agoraSS/agora_1.png
-#   teaser: /assets/img/pragueCastle_thumbnail.png
 gallery:
   - url: /assets/img/datavr/datavr_1.png
     image_path: assets/img/datavr/datavr_1.png
@@ -38,7 +35,9 @@ Data-VR was an exploration in data visualizations in virtual reality, built in 3
 
 Our traditional first approach took real datasets in .csv format and translated the datapoints into VR coordinates. We have scatterplot and barchart functionality.
 
-The second project bitcoin-vr (called blockchain-vr at the time), abstracted real-time Bitcoin transactions into an experience.
+The second project Bitcoin-VR (previously named Blockchain-VR) abstracted real-time Bitcoin transactions into an experience.
+
+We recently launched [Bitcoin-VR](/bitcoinvr/) mid-December.
 
 <h2>Screenshots</h2>
 
