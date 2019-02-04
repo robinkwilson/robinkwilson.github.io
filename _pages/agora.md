@@ -36,12 +36,6 @@ gallery:
 
 Agora was built in 1.5 weeks on a team with Derrick Beining and Jing Jia. I modified the layout and refactored some of the code after the Fullstack Academy program was finished.
 
-This ecommerce project put every technology we learned to the test in a remote collaboration.
-
-<h2>Functionality Screenshots</h2>
+<h2>Screenshots</h2>
 
 {% include gallery caption="Agora screenshots" %}
-
-<h2>Challenges and Take-Aways</h2>
-
-Overall, we created a solid project and recieved praise for the amount of functionality we completed in the timeframe and so few teammates (this project is generally tackled by teams of 4). I was happy to integrate the humor I always wanted to integrate when I returned to the project and experimented with the design.
