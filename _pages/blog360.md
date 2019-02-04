@@ -33,7 +33,7 @@ gallery:
     alt: "Blog30 street art of a detailed dragon"
 ---
 
-Blog 360 was built in 3 days on a solo hackathon project. I explore what the web looks like in virtual reality, a topic I've been looking to explore for a long time.
+Blog 360 was built in 3 days on a solo hackathon project. I explore what a travel blog website would look like in virtual reality.
 
 Check out the source code: [github.com/Blog360](https://github.com/robin-k-wilson/Blog360)
 
@@ -48,15 +48,3 @@ Check out the source code: [github.com/Blog360](https://github.com/robin-k-wilso
 Short 4 minute presentation of the navigation, UI, and fun 360 content.
 
 {% include video id="j5AH63jVYcY" provider="youtube" %}
-
-<h2>Future Expansion</h2>
-
-1. Refactor -- Let's be honest, it was built in 3 days!
-2. Integrate a redux store
-3. Add back-end for storing blog posts
-4. Create 2D interface for other people to create their own content
-5. Plug this into large blog websites
-
-<h2>Challenges and Take-Aways</h2>
-
-Overall building this application was a fantastic experience. Being able to create a navigatable product in no time was gratifying. Next time, I would plan out the structure of the React-VR components once I hammer down the general UX. So it's easier to integrate additional content.
