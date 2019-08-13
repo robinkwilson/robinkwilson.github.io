@@ -37,7 +37,7 @@ feature_row:
   - image_path: /assets/img/blockchain/blockchain-th.png
     alt: "Blockchain tech talk project thumbnail"
     title: "Blockchain Tech Talk"
-    excerpt: "Presentation on the blockchain and it's impact on the modern economy."
+    excerpt: "Presentation on the blockchain and its impact on the modern economy."
     image_url: /blockchain/
     title_url: /blockchain/
 ---

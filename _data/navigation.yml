@@ -5,6 +5,8 @@ main:
   - title: "About"
     url: /#about
   - title: "Resume"
-    url: /#resume
+    url: /resume
   - title: "Contact"
     url: /#contact
+  - title: "test"
+    url: /thankyou
