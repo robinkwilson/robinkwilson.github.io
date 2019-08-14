@@ -1,13 +1,8 @@
 ---
-title: "Hi, I'm Robin"
 layout: single
 permalink: /
 date: 2017-12-13
 author_profile: true
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.2"
-  overlay_image: /assets/img/robinDesk.jpeg
 excerpt: "I'm passionate about code, efficiency, and business."
 feature_row:
   - image_path: /assets/img/bitcoin/bitcoin_th.jpeg
@@ -42,9 +37,16 @@ feature_row:
     title_url: /blockchain/
 ---
 
-<noscript><p class="notice--warning">Enable JavaScript for best experience! Oh... Not interested? Welp, as you were friend! ¯\_(ツ)_/¯</p></noscript>
+<h1 class="text-center">Hi, I'm Robin</h1>
 
-<h2 id="portfolio">Portfolio</h2>
+<p class="text-center">I explore the overlap where technology connects with art, business, and enables a strong human connection.</p>
+
+<h2 id="projects">Projects</h2>
+
+<a href="#" class="btn btn--primary">High Fidelity</a>
+<a href="#" class="btn btn--primary">WebVR</a>
+<a href="#" class="btn btn--primary">Web Development</a>
+<a href="#" class="btn btn--primary">Misc</a>
 
 {% include feature_row %}
 
@@ -56,34 +58,15 @@ feature_row:
 
 <p>When I'm not coding, I'm outside hiking, running, reading, petting the neighborhood cats, and joking about petting the neighborhood cats.</p>
 
-<h2 id="resume">Resume and CV</h2>
+<h2 id="whats-new">What's New?</h2>
 
-<a href="/assets/img/Resume_TechLead_RobinWilson_VR_12-02-2018.pdf" download="RobinKWilson_Resume"><button class="btn btn--primary">Resume Download</button></a>
+<p class="font-weight-bold no-margin">May 2019</p> 
+<p>Left <a href="https://variety.com/2019/digital/news/high-fidelity-layoffs-1203208860/">High Fidelity VR</a>. </p>
 
-<script type="text/javascript">var submitted=false;</script>
+<p class="font-weight-bold no-margin">June 2019</p>
+<p class="no-margin">Helped <a href="https://convrsate.weebly.com/">conVRsate</a> launch. </p>
+<p>Left for Guilin, China to continue learning Mandarin Chinese.</p>
 
-<h2 id="contact">Contact</h2>
-
-I'm always looking to collaborate on interesting projects!
-
- <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) { window.location='/thankyou/';}"></iframe>
-
-<noscript>
-
-<div class="notice--warning">
-
-<p>Oh, hello "not using JavaScript person"!</p>
-
-<p>To send a message, you need to enable JavaScript. Otherwise, send your message via LinkedIn: [linkedin.com/in/robinkwilson25](https://www.linkedin.com/in/robinkwilson25/).</p>
-</div>
-
-</noscript>
-
-<div id="contact-container"></div>
-
-<script type="text/javascript">
-
-  document.write(
-    '<div id="contact-form-home">' + formHTML + '</div>');
-
-</script>
+<p class="font-weight-bold no-margin">August 2019</p> 
+<p class="no-margin">Returned from China with HSK 2 level of Mandarin Chinese. </p>
+<p>Passionate than ever to continue VR consulting and development.</p>

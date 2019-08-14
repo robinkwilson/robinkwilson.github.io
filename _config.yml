@@ -9,7 +9,7 @@ github_username:  robin-k-wilson
 # Build settings
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.13.0"
-# minimal_mistakes_skin: "contrast"
+# minimal_mistakes_skin: "dirt"
 plugins:
   - jekyll-include-cache
   - jekyll-feed

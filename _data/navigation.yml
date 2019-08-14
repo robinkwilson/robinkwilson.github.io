@@ -2,11 +2,9 @@
 main:
   - title: "Portfolio"
     url: /#portfolio
+  - title: "Projects"
+    url: /#projects
   - title: "About"
     url: /#about
   - title: "Resume"
     url: /resume
-  - title: "Contact"
-    url: /#contact
-  - title: "test"
-    url: /thankyou
