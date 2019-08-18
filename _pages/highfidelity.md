@@ -37,7 +37,7 @@ gallery1:
 
 <br />
 
-<h2>Avatar Customization 101 App</h2>
+<h2 id="avatar101-hifi">Avatar Customization 101 App</h2>
 
 {% include gallery1 class="cover" %}
 
@@ -56,7 +56,7 @@ README and source code: [github.com/hifi-content/avatarCustomization101](https:/
 
 <br />
 
-<h2>Status Indicator</h2>
+<h2 id="statuss-indicator-hifi">Status Indicator</h2>
 
 <a href="/assets/img/highfidelity/statusIndicator/statusIndicatorDirectory.jpg" title="Status Indicator Directory">
   <img src="/assets/img/highfidelity/statusIndicator/statusIndicatorDirectory.jpg" alt="Status indicator directory" style="width: 400px" class="align-center" />
@@ -74,7 +74,7 @@ Node.js, JavaScript, HTML, and CSS</p>
 
 <br />
 
-<h2>Vote App</h2>
+<h2 id="vote-app-hifi">Vote App</h2>
 
 <a href="/assets/img/highfidelity/voteApp/avatarcontest1.jpg" title="Avatar Contest">
   <img src="/assets/img/highfidelity/voteApp/avatarcontest1.jpg" alt="Avatar contest" style="width: 400px" class="align-center" />
@@ -112,7 +112,7 @@ Scripts, Google Sheets, HTML, and CSS</p>
 
 <br />
 
-<h2>Sit Script</h2>
+<h2 id="sit-script-hifi">Sit Script</h2>
 
 <p>The sit script is one of the most downloaded Hifi marketplace items and most popular script used in domains
 across High Fidelity. I redesigned, refactored, and optimized the original unusable sit script into a clean UX
@@ -124,13 +124,15 @@ README and source code: [github.com/hifi-content/sitScript](https://github.com/h
 
 <br />
 
-<h2>Griefer Detector or "The Loud App"</h2>
+<h2 id="loud-app-hifi">Griefer Detector or "The Loud App"</h2>
 
 <h3>Problem</h3>
 
-<p>Discover a way to detect and mitigate users exploiting hifi to disrupt our event experience for other users.</p>
+<p>Occasionally loud noises and other sounds from a user's microphone disrupts event experience.</p>
 
 <h3>Solution</h3>
+
+<p>Discover a way to detect and mitigate users exploiting the platform to disrupt our event experience for other users.</p>
 
 <p>Within one week, we were able to implement an app to pinpoint a user with an open mic or a mic that is louder than most other users for event cases. We successfully mitigated any issues.</p>
 

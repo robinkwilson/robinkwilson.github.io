@@ -35,12 +35,38 @@ feature_row:
     excerpt: "Presentation on the blockchain and its impact on the modern economy."
     image_url: /blockchain/
     title_url: /blockchain/
+
   - image_path: /assets/img/highfidelity/avatar101/avatar101_0.PNG
     alt: "High Fidelity VR Avatar 101 blueprint thumbnail"
     title: "Avatar 101 Hifi App "
     excerpt: "Teach users how to customize their own avatar."
-    image_url: /highfidelity/
-    title_url: /highfidelity/
+    image_url: /highfidelity/#avatar101-hifi
+    title_url: /highfidelity/#avatar101-hifi
+
+  - image_path: /assets/img/highfidelity/statusIndicator/statusIndicatorDirectory.jpg
+    alt: "High Fidelity VR status indicator application thumbnail"
+    title: "Status Indicator Hifi App"
+    excerpt: "Teach users how to customize their own avatar."
+    image_url: /highfidelity/#status-indicator-hifi
+    title_url: /highfidelity/#status-indicator-hifi
+  - image_path: /assets/img/highfidelity/general/high-fidelity-logo.png
+    alt: ""
+    title: "Sit script"
+    excerpt: "Sit in VR and desktop mode."
+    image_url: /highfidelity/#sit-script-hifi
+    title_url: /highfidelity/#sit-script-hifi
+  - image_path: /assets/img/highfidelity/general/high-fidelity-logo.png
+    alt: ""
+    title: "Griefer Detector"
+    excerpt: ""
+    image_url: /highfidelity/#griefer-detector-hifi
+    title_url: /highfidelity/#griefer-detector-hifi
+  - image_path: /assets/img/highfidelity/voteApp/avatarcontest1.jpg
+    alt: ""
+    title: "Vote App"
+    excerpt: ""
+    image_url: /highfidelity/#vote-app-hifi
+    title_url: /highfidelity/#vote-app-hifi
 ---
 
 <h1 class="text-center">Hi, I'm Robin!</h1>
@@ -73,7 +99,7 @@ feature_row:
 <p>Left <a href="https://variety.com/2019/digital/news/high-fidelity-layoffs-1203208860/">High Fidelity VR</a>. </p>
 
 <p class="font-weight-bold no-margin">June 2019</p>
-<p class="no-margin">Helped <a href="https://convrsate.weebly.com/">conVRsate</a> launch. </p>
+<p class="no-margin">Helped <a href="https://convrsate.weebly.com/">conVRsate</a> launch.</p>
 <p>Left for Guilin, China to continue learning Mandarin Chinese.</p>
 
 <p class="font-weight-bold no-margin">August 2019</p> 
