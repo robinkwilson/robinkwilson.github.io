@@ -35,11 +35,20 @@ feature_row:
     excerpt: "Presentation on the blockchain and its impact on the modern economy."
     image_url: /blockchain/
     title_url: /blockchain/
+  - image_path: /assets/img/highfidelity/avatar101/avatar101_0.PNG
+    alt: "High Fidelity VR Avatar 101 blueprint thumbnail"
+    title: "Avatar 101 Hifi App "
+    excerpt: "Teach users how to customize their own avatar."
+    image_url: /highfidelity/
+    title_url: /highfidelity/
 ---
 
-<h1 class="text-center">Hi, I'm Robin</h1>
+<h1 class="text-center">Hi, I'm Robin!</h1>
 
-<p class="text-center">I explore the overlap where technology connects with art, business, and enables a strong human connection.</p>
+<p class="text-center">VR Developer and Consultant</p>
+<p class="text-center">Art and Story Driven Gamer | Growth Mindset Advocate | Artist | World Traveller</p>
+
+<p>I explore the overlap where technology connects with art, business, and enables a strong human connection.</p>
 
 <h2 id="projects">Projects</h2>
 
@@ -68,5 +77,7 @@ feature_row:
 <p>Left for Guilin, China to continue learning Mandarin Chinese.</p>
 
 <p class="font-weight-bold no-margin">August 2019</p> 
-<p class="no-margin">Returned from China with HSK 2 level of Mandarin Chinese. </p>
+<p>Returned from China with HSK 2 level of Mandarin Chinese. </p>
+
+<p class="font-weight-bold no-margin">Now</p> 
 <p>Passionate than ever to continue VR consulting and development.</p>

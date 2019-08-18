@@ -1,10 +1,10 @@
 # main links
 main:
-  - title: "Portfolio"
-    url: /#portfolio
   - title: "Projects"
     url: /#projects
-  - title: "About"
-    url: /#about
+  - title: "Bio"
+    url: /bio
   - title: "Resume"
     url: /resume
+  - title: "What's New?"
+    url: /#whats-new

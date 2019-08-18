@@ -46,7 +46,7 @@
                 {% endif %}
               alt="{% if f.alt %}{{ f.alt }}{% endif %}">
 
-              <div class="learn-more-text">Learn More</div>
+              <div class="learn-more-text">{% if f.title%}{{ f.title }}{% else %}Learn More{% endif %}</div>
             </div>
             {% if f.image_url %}
               </a>
