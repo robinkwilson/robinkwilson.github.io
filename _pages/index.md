@@ -1,10 +1,40 @@
 ---
 layout: single
 permalink: /
-date: 2017-12-13
+date: 2019-08-19
 author_profile: true
-excerpt: "I'm passionate about code, efficiency, and business."
 feature_row:
+  - image_path: /assets/img/highfidelity/avatar101/avatar101_0.PNG
+    alt: "High Fidelity VR Avatar 101 blueprint thumbnail"
+    title: "Avatar 101 Hifi App "
+    excerpt: "Teach users how to customize their own avatar."
+    image_url: /highfidelity/#avatar101-hifi
+    title_url: /highfidelity/#avatar101-hifi
+  - image_path: /assets/img/highfidelity/general/high-fidelity-logo.png
+    alt: "High Fidelity VR status indicator application thumbnail"
+    title: "Status Indicator Hifi App"
+    excerpt: "No more awkward conversations with AFK user's avatars!"
+    image_url: /highfidelity/#status-indicator-hifi
+    title_url: /highfidelity/#status-indicator-hifi
+  - image_path: /assets/img/highfidelity/sitPoint/sitPoint.png
+    alt: ""
+    title: "Sit Script"
+    excerpt: "Sit in VR and desktop mode."
+    image_url: /highfidelity/#sit-script-hifi
+    title_url: /highfidelity/#sit-script-hifi
+  - image_path: /assets/img/highfidelity/loudApp/loudAppIcon.png
+    alt: ""
+    title: "Griefer Detector"
+    excerpt: "Mitigate open mics and disruptive noises."
+    image_url: /highfidelity/#griefer-detector-hifi
+    title_url: /highfidelity/#griefer-detector-hifi
+  - image_path: /assets/img/highfidelity/voteApp/avatarcontest1.jpg
+    alt: ""
+    title: "Vote Hifi App"
+    excerpt: "Vote for your favorite avatars and environments. Incorporates Google Scripts."
+    image_url: /highfidelity/#vote-app-hifi
+    title_url: /highfidelity/#vote-app-hifi
+
   - image_path: /assets/img/bitcoin/bitcoin_th.jpeg
     alt: "Bitcoin-VR project thumbnail"
     title: "Bitcoin-VR"
@@ -20,7 +50,7 @@ feature_row:
   - image_path: /assets/img/blog360/blog360_1.png
     alt: "Blog360 project thumbnail"
     title: "Blog360"
-    excerpt: "Three day Hackathon project experimenting with the web viewed in VR."
+    excerpt: "3-day Hackathon project experimenting with the web viewed in VR."
     image_url: /blog360/
     title_url: /blog360/
   - image_path: /assets/img/agoraSS/agora_th.png
@@ -35,38 +65,6 @@ feature_row:
     excerpt: "Presentation on the blockchain and its impact on the modern economy."
     image_url: /blockchain/
     title_url: /blockchain/
-
-  - image_path: /assets/img/highfidelity/avatar101/avatar101_0.PNG
-    alt: "High Fidelity VR Avatar 101 blueprint thumbnail"
-    title: "Avatar 101 Hifi App "
-    excerpt: "Teach users how to customize their own avatar."
-    image_url: /highfidelity/#avatar101-hifi
-    title_url: /highfidelity/#avatar101-hifi
-
-  - image_path: /assets/img/highfidelity/statusIndicator/statusIndicatorDirectory.jpg
-    alt: "High Fidelity VR status indicator application thumbnail"
-    title: "Status Indicator Hifi App"
-    excerpt: "Teach users how to customize their own avatar."
-    image_url: /highfidelity/#status-indicator-hifi
-    title_url: /highfidelity/#status-indicator-hifi
-  - image_path: /assets/img/highfidelity/general/high-fidelity-logo.png
-    alt: ""
-    title: "Sit script"
-    excerpt: "Sit in VR and desktop mode."
-    image_url: /highfidelity/#sit-script-hifi
-    title_url: /highfidelity/#sit-script-hifi
-  - image_path: /assets/img/highfidelity/general/high-fidelity-logo.png
-    alt: ""
-    title: "Griefer Detector"
-    excerpt: ""
-    image_url: /highfidelity/#griefer-detector-hifi
-    title_url: /highfidelity/#griefer-detector-hifi
-  - image_path: /assets/img/highfidelity/voteApp/avatarcontest1.jpg
-    alt: ""
-    title: "Vote App"
-    excerpt: ""
-    image_url: /highfidelity/#vote-app-hifi
-    title_url: /highfidelity/#vote-app-hifi
 ---
 
 <h1 class="text-center">Hi, I'm Robin!</h1>
@@ -74,24 +72,16 @@ feature_row:
 <p class="text-center">VR Developer and Consultant</p>
 <p class="text-center">Art and Story Driven Gamer | Growth Mindset Advocate | Artist | World Traveller</p>
 
-<p>I explore the overlap where technology connects with art, business, and enables a strong human connection.</p>
+<p>I explore the overlap where technology connects with art, business, education, and enables a strong human connection. I build virtual reality applications using JavaScript. My passion projects incorporate VR/AR, blockchain, and automations.</p>
 
 <h2 id="projects">Projects</h2>
 
-<a href="#" class="btn btn--primary">High Fidelity</a>
+<a href="#" class="btn btn--primary">High Fidelity VR</a>
 <a href="#" class="btn btn--primary">WebVR</a>
 <a href="#" class="btn btn--primary">Web Development</a>
 <a href="#" class="btn btn--primary">Misc</a>
 
 {% include feature_row %}
-
-<h2 id="about">About Me</h2>
-
-<p>I build virtual reality and web applications using JavaScript web technologies. My passion projects incorporate VR/AR, blockchain, and automations.</p>
-
-<p>In every coding project, I utilize my background in business leadership and art to inform design decisions.</p>
-
-<p>When I'm not coding, I'm outside hiking, running, reading, petting the neighborhood cats, and joking about petting the neighborhood cats.</p>
 
 <h2 id="whats-new">What's New?</h2>
 

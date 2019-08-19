@@ -3,19 +3,15 @@ layout: single
 title: High Fidelity VR
 permalink: /highfidelity/
 author_profile: true
-header:
-#   image: /assets/img/highfidelity/general/hifiheader.jpg
-#   teaser: /assets/img/pragueCastle_thumbnail.png
 gallery:
   - url: /assets/img/highfidelity/general/hifiheader.jpg
     image_path: assets/img/highfidelity/general/hifiheader.jpg
-    alt: "High Fidelity VR Avatar 101 blueprint thumbnail"
   - url: /assets/img/highfidelity/general/hifi1.jpg
     image_path: assets/img/highfidelity/general/hifi1.jpg
   - url: /assets/img/highfidelity/general/hifi2.jpg
     image_path: assets/img/highfidelity/general/hifi2.jpg
-  - url: /assets/img/highfidelity/general/hifi3.jpg
-    image_path: assets/img/highfidelity/general/hifi3.jpg
+  - url: /assets/img/highfidelity/general/conference.jpg
+    image_path: assets/img/highfidelity/general/conference.jpg
 gallery1:
   - url: /assets/img/highfidelity/avatar101/avatar101_1.png
     image_path: assets/img/highfidelity/avatar101/avatar101_1.png
@@ -57,10 +53,6 @@ README and source code: [github.com/hifi-content/avatarCustomization101](https:/
 <br />
 
 <h2 id="statuss-indicator-hifi">Status Indicator</h2>
-
-<a href="/assets/img/highfidelity/statusIndicator/statusIndicatorDirectory.jpg" title="Status Indicator Directory">
-  <img src="/assets/img/highfidelity/statusIndicator/statusIndicatorDirectory.jpg" alt="Status indicator directory" style="width: 400px" class="align-center" />
-</a> 
 
 <p>I created a script to notify your availability status and in-world location to your coworkers via a job board to
 encourage water-cooler talk.</p>
@@ -124,7 +116,7 @@ README and source code: [github.com/hifi-content/sitScript](https://github.com/h
 
 <br />
 
-<h2 id="loud-app-hifi">Griefer Detector or "The Loud App"</h2>
+<h2 id="griefer-detector-hifi">Griefer Detector or "The Loud App"</h2>
 
 <h3>Problem</h3>
 
@@ -139,3 +131,9 @@ README and source code: [github.com/hifi-content/sitScript](https://github.com/h
 <p>Later, I advocated for and designed a Hifi Javascript API call to optimize the performance of this app with the Engine Team. This improvement removed the need for an API call per user present in the domain with packet loss to one single API call and 100% success rate.</p>
 
 README and source code: [github.com/hifi-content/loudApp](https://github.com/highfidelity/hifi-content/tree/master/usefulUtilities/loudApp)
+
+<br />
+
+<a href="/assets/img/highfidelity/general/sittingonBridge.png" title="Sitting on a bridge">
+  <img src="/assets/img/highfidelity/general/sittingonBridge.png" alt="Sitting on a bridge" style="width: 100%; border-radius: 2%" class="align-center" />
+</a> 
