@@ -8,3 +8,5 @@ main:
     url: /resume
   - title: "What's New?"
     url: /#whats-new
+  - title: "Contact"
+    url: /#contact

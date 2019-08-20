@@ -111,6 +111,10 @@ I specialize in WebVR technologies and VR application design.
 <p class="font-weight-bold no-margin">Now</p> 
 <p>Passionate than ever to continue VR consulting and development.</p>
 
+<h2 id="contact">Contact</h2>
+
+I'd love to get in contact! Shoot me a message on [LinkedIn](https://www.linkedin.com/in/robinkwilson/).
+
 <script>
 
 const projectsElement = document.getElementsByClassName("feature__wrapper")[0];
