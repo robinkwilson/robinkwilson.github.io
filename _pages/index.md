@@ -4,7 +4,7 @@ permalink: /
 date: 2019-08-19
 author_profile: true
 feature_row:
-  - image_path: /assets/img/highfidelity/avatar101/avatar101_0.PNG
+  - image_path: /assets/img/highfidelity/avatar101/avatar101_0.png
     alt: "High Fidelity VR Avatar 101 blueprint thumbnail"
     title: "Avatar 101 Hifi App "
     excerpt: "Teach users how to customize their own avatar."
@@ -18,7 +18,7 @@ feature_row:
     image_url: /highfidelity/#status-indicator-hifi
     filters: "hifi"
   
-  - image_path: /assets/img/highfidelity/sitPoint/sitPoint.png
+  - image_path: /assets/img/highfidelity/sitPoint/sitPoint.PNG
     alt: ""
     title: "Sit Script"
     excerpt: "Sit in VR and desktop mode."
