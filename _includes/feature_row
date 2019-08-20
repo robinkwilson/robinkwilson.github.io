@@ -20,13 +20,13 @@
       {% capture f_image_url %}{{ f.image_url | absolute_url }}{% endcapture %}
     {% endif %}
 
-    {% if f.title_url contains "://" %}
-      {% capture f_title_url %}{{ f.title_url }}{% endcapture %}
+    {% if f.image_url contains "://" %}
+      {% capture f_image_url %}{{ f.image_url }}{% endcapture %}
     {% else %}
-      {% capture f_title_url %}{{ f.title_url | absolute_url }}{% endcapture %}
+      {% capture f_image_url %}{{ f.image_url | absolute_url }}{% endcapture %}
     {% endif %}
 
-    <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
+    <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %} {% if f.filters %}filter-item {{ f.filters }}{% endif %}">
       <div class="archive__item">
         {% if f.image_path %}
           <div class="archive__item-teaser">
@@ -59,15 +59,15 @@
 
         <div class="archive__item-body">
 
-          {% if f.title_url %}
-            <a href="{{f_title_url}}" class="link-title">
+          {% if f.image_url %}
+            <a href="{{f_image_url}}" class="link-title">
           {% endif %}
 
             {% if f.title %}
               <h2 class="archive__item-title">{{ f.title }}</h2>
             {% endif %}
 
-            {% if f.title_url %}
+            {% if f.image_url %}
               </a>
             {% endif %}
 
