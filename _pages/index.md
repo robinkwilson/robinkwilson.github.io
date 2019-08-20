@@ -1,89 +1,150 @@
 ---
-title: "Hi, I'm Robin"
 layout: single
 permalink: /
-date: 2017-12-13
+date: 2019-08-19
 author_profile: true
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.2"
-  overlay_image: /assets/img/robinDesk.jpeg
-excerpt: "I'm passionate about code, efficiency, and business."
 feature_row:
+  - image_path: /assets/img/highfidelity/avatar101/avatar101_0.PNG
+    alt: "High Fidelity VR Avatar 101 blueprint thumbnail"
+    title: "Avatar 101 Hifi App "
+    excerpt: "Teach users how to customize their own avatar."
+    image_url: /highfidelity/#avatar101-hifi
+    filters: "hifi"
+  
+  - image_path: /assets/img/highfidelity/general/high-fidelity-logo.png
+    alt: "High Fidelity VR status indicator application thumbnail"
+    title: "Status Indicator Hifi App"
+    excerpt: "No more awkward conversations with AFK user's avatars!"
+    image_url: /highfidelity/#status-indicator-hifi
+    filters: "hifi"
+  
+  - image_path: /assets/img/highfidelity/sitPoint/sitPoint.png
+    alt: ""
+    title: "Sit Script"
+    excerpt: "Sit in VR and desktop mode."
+    image_url: /highfidelity/#sit-script-hifi
+    filters: "hifi"
+  
+  - image_path: /assets/img/highfidelity/loudApp/loudAppIcon.png
+    alt: ""
+    title: "Griefer Detector"
+    excerpt: "Mitigate open mics and disruptive noises."
+    image_url: /highfidelity/#griefer-detector-hifi
+    filters: "hifi"
+  
+  - image_path: /assets/img/highfidelity/voteApp/avatarcontest1.jpg
+    alt: ""
+    title: "Vote Hifi App"
+    excerpt: "Vote for your favorite avatars and environments. Incorporates Google Scripts."
+    image_url: /highfidelity/#vote-app-hifi
+    filters: "hifi"
+
   - image_path: /assets/img/bitcoin/bitcoin_th.jpeg
     alt: "Bitcoin-VR project thumbnail"
     title: "Bitcoin-VR"
     excerpt: "Deployed Bitcoin transaction visualization using React-VR and socket.io."
     image_url: /bitcoinvr/
-    title_url: /bitcoinvr/
+    filters: "webVR"
+  
   - image_path: assets/img/datavr/datavr_1.png
     alt: "Data-VR project thumbnail"
     title: "Data-VR"
     excerpt: "Exploration into VR data visualizations and the early bitcoin-vr."
     image_url: /datavr/
-    title_url: /datavr/
+    filters: "webVR"
+  
   - image_path: /assets/img/blog360/blog360_1.png
     alt: "Blog360 project thumbnail"
     title: "Blog360"
-    excerpt: "Three day Hackathon project experimenting with the web viewed in VR."
+    excerpt: "3-day Hackathon project experimenting with the web viewed in VR."
     image_url: /blog360/
-    title_url: /blog360/
+    filters: "webVR"
+  
   - image_path: /assets/img/agoraSS/agora_th.png
     alt: "Agora project thumbnail"
     title: "Agora, Chairs!"
     image_url: /agora/
-    title_url: /agora/
     excerpt: "The classiest chair selling e-commerce site built using React, Node.js, and bootstrap."
+    filters: "misc"
+  
   - image_path: /assets/img/blockchain/blockchain-th.png
     alt: "Blockchain tech talk project thumbnail"
     title: "Blockchain Tech Talk"
-    excerpt: "Presentation on the blockchain and it's impact on the modern economy."
+    excerpt: "Presentation on the blockchain and its impact on the modern economy."
     image_url: /blockchain/
-    title_url: /blockchain/
+    filters: "misc"
 ---
 
-<noscript><p class="notice--warning">Enable JavaScript for best experience! Oh... Not interested? Welp, as you were friend! ¯\_(ツ)_/¯</p></noscript>
+<h1 class="text-center">Hi, I'm Robin!</h1>
 
-<h2 id="portfolio">Portfolio</h2>
+<p class="text-center">VR Developer and Consultant</p>
+<p class="text-center">Art and Story Driven Gamer | Growth Mindset Advocate | Artist | World Traveller</p>
+
+I explore the overlap where technology connects with art, business, education, and enables a strong human connection. 
+
+I specialize in WebVR technologies and VR application design.
+
+<h2 id="projects">Projects</h2>
+<div>
+  <a href="#" onclick="filterProjects(event, 'all')" class="btn btn--primary">All</a>
+  <a href="#" onclick="filterProjects(event, 'hifi')" class="btn btn--primary">High Fidelity VR</a>
+  <a href="#" onclick="filterProjects(event, 'webVR')" class="btn btn--primary">WebVR</a>
+  <a href="#" onclick="filterProjects(event, 'misc')" class="btn btn--primary">Misc</a>
+</div>
 
 {% include feature_row %}
 
-<h2 id="about">About Me</h2>
+<div id="hidden" style="display: none"></div>
 
-<p>I build virtual reality and web applications using JavaScript web technologies. My passion projects incorporate VR/AR, blockchain, and automations.</p>
+<h2 id="whats-new">What's New?</h2>
 
-<p>In every coding project, I utilize my background in business leadership and art to inform design decisions.</p>
+<p class="font-weight-bold no-margin">May 2019</p> 
+<p>Left <a href="https://variety.com/2019/digital/news/high-fidelity-layoffs-1203208860/">High Fidelity VR</a>. </p>
 
-<p>When I'm not coding, I'm outside hiking, running, reading, petting the neighborhood cats, and joking about petting the neighborhood cats.</p>
+<p class="font-weight-bold no-margin">June 2019</p>
+<p class="no-margin">Helped <a href="https://convrsate.weebly.com/">conVRsate</a> launch.</p>
+<p>Left for Guilin, China to continue learning Mandarin Chinese.</p>
 
-<h2 id="resume">Resume and CV</h2>
+<p class="font-weight-bold no-margin">August 2019</p> 
+<p>Returned from China with HSK 2 level of Mandarin Chinese. </p>
 
-<a href="/assets/img/Resume_TechLead_RobinWilson_VR_12-02-2018.pdf" download="RobinKWilson_Resume"><button class="btn btn--primary">Resume Download</button></a>
-
-<script type="text/javascript">var submitted=false;</script>
+<p class="font-weight-bold no-margin">Now</p> 
+<p>Passionate than ever to continue VR consulting and development.</p>
 
 <h2 id="contact">Contact</h2>
 
-I'm always looking to collaborate on interesting projects!
+I'd love to get in contact! Shoot me a message on [LinkedIn](https://www.linkedin.com/in/robinkwilson/).
 
- <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) { window.location='/thankyou/';}"></iframe>
+<script>
 
-<noscript>
+const projectsElement = document.getElementsByClassName("feature__wrapper")[0];
+const hiddenElement = document.getElementById("hidden");
 
-<div class="notice--warning">
+function filterProjects(e, str) {
+  e.preventDefault();
 
-<p>Oh, hello "not using JavaScript person"!</p>
+  if (str === "all") {
+    while (hiddenElement.firstChild) {
+      projectsElement.appendChild(hiddenElement.firstChild); // might be out of order
+    }
+    return;
+  }
 
-<p>To send a message, you need to enable JavaScript. Otherwise, send your message via LinkedIn: [linkedin.com/in/robinkwilson25](https://www.linkedin.com/in/robinkwilson25/).</p>
-</div>
+  var visibleProjects = projectsElement.getElementsByClassName("filter-item");
+  var hiddenProjects = hiddenElement.getElementsByClassName("filter-item");
 
-</noscript>
+  var addToHidden = [...visibleProjects].filter(elem => elem.className.indexOf(str) === -1);
+  var addToVisible = [...hiddenProjects].filter(elem => elem.className.indexOf(str) !== -1);
 
-<div id="contact-container"></div>
+  while (addToHidden.length) {
+    hiddenElement.appendChild(addToHidden[0]);
+    addToHidden.shift();
+  }
+  while (addToVisible.length) {
+    projectsElement.appendChild(addToVisible[0]);
+    addToVisible.shift();
+  }
 
-<script type="text/javascript">
-
-  document.write(
-    '<div id="contact-form-home">' + formHTML + '</div>');
+}
 
 </script>

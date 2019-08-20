@@ -1,27 +1,30 @@
-title: Robin K Wilson
+title: Robin K. Wilson
 email: robin.kath.wilson@gmail.com
 description: # >- this means to ignore newlines until "baseurl:"
-  Robin K Wilson's personal website. The site serves as a platform to showcase her projects, contributions, and overall learning. Resume and CVs are available!
+  Robin K. Wilson's personal website. The site serves as a platform to showcase her projects, contributions, and overall learning. Resume and CVs are available!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  robin-k-wilson
 
 # Build settings
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes"
-# minimal_mistakes_skin: "contrast"
+remote_theme: "mmistakes/minimal-mistakes@4.13.0"
+# minimal_mistakes_skin: "dirt"
 plugins:
+  - jekyll-include-cache
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
 
 include: ["_pages"]
 
 author:
-  name: "Robin K Wilson"
+  name: "Robin K. Wilson"
   avatar: "/assets/img/robinHeadshot1_thumbnail.jpg"
-  location: Oakland, CA
-  email: "hello"
-  linkedin: robinkwilson25/
+  location: San Francisco, CA
+  linkedin: robinkwilson/
   github: robin-k-wilson
   # uri:
 

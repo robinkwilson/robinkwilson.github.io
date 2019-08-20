@@ -14,30 +14,30 @@ body{
 
   font-size: 16px;
 
-  @include breakpoint($small) {
-    font-size: 18px;
-    .footer-note {
-      width: 100%;
-    }
-  }
+  // @include breakpoint($small) {
+  //   font-size: 18px;
+  //   .footer-note {
+  //     width: 100%;
+  //   }
+  // }
 
-  @include breakpoint($medium) {
-    font-size: 18px;
-    .footer-note {
-      width: 40%;
-    }
-  }
+  // @include breakpoint($medium) {
+  //   font-size: 18px;
+  //   .footer-note {
+  //     width: 40%;
+  //   }
+  // }
 
-  @include breakpoint($large) {
-    font-size: 18px;
-    .footer-note {
-      width: 50%;
-    }
-  }
+  // @include breakpoint($large) {
+  //   font-size: 18px;
+  //   .footer-note {
+  //     width: 50%;
+  //   }
+  // }
 
-  @include breakpoint($x-large) {
-    font-size: 18px;
-  }
+  // @include breakpoint($x-large) {
+  //   font-size: 18px;
+  // }
 
 }
 
@@ -83,10 +83,10 @@ div.feature__item {
 
 // Collection Images
 
-.third img {
-  object-fit: scale-down;
-  border: #898c8f solid 1px; // TODO needs to be lighter
-}
+// .third img {
+//   object-fit: scale-down;
+//   border: #898c8f solid 1px; // TODO needs to be lighter
+// }
 
 // Page with Cover Image Options //
 
@@ -115,11 +115,25 @@ div.feature__item {
     }
 }
 
+// @media (min-width: 37.5em){
+//   figure.fourth>a,
+//     img {
+//       width:calc(25% - 0.5em)
+//     }
+// }
+
+// @media (max-width: 37.5em){
+//   figure.fourth>a,
+//     img {
+//       width:calc(25% - 0.5em)
+//     }
+// }
+
 @media (min-width: 80em){
   .sidebar {
     width: calc(300px - 2em);
   }
-}
+} 
 
 .author__urls-wrapper button {
   align-items: flex-end;
@@ -243,4 +257,16 @@ div.feature__item {
 
 .page__footer-copyright, .page__footer-follow {
   text-align: right;
+}
+
+.font-weight-bold {
+  font-weight: bold
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.display-none {
+  display: none;
 }
