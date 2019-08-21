@@ -78,7 +78,7 @@ feature_row:
 <h1 class="text-center">Hi, I'm Robin!</h1>
 
 <p class="text-center">VR Developer and Consultant</p>
-<p class="text-center">Art and Story Driven Gamer | Growth Mindset Advocate | Artist | World Traveller</p>
+<p class="text-center">Art and Story Driven Gamer | Growth Mindset Advocate | Artist | World Traveler</p>
 
 I explore the overlap where technology connects with art, business, education, and enables a strong human connection. 
 

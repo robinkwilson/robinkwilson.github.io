@@ -13,31 +13,10 @@ body{
   // Font-size Breakpoint Customizations
 
   font-size: 16px;
-
-  // @include breakpoint($small) {
-  //   font-size: 18px;
-  //   .footer-note {
-  //     width: 100%;
-  //   }
-  // }
-
-  // @include breakpoint($medium) {
-  //   font-size: 18px;
-  //   .footer-note {
-  //     width: 40%;
-  //   }
-  // }
-
-  // @include breakpoint($large) {
-  //   font-size: 18px;
-  //   .footer-note {
-  //     width: 50%;
-  //   }
-  // }
-
-  // @include breakpoint($x-large) {
-  //   font-size: 18px;
-  // }
+    
+  h2 {
+    font-size: 18px;
+  }
 
 }
 
@@ -46,6 +25,7 @@ body{
 .page__content .archive__item-title {
   margin-top: 0.5em;
   padding-bottom: 0.1em;
+  font-size: 1.0em;
 }
 
 div.feature__item {
@@ -114,20 +94,6 @@ div.feature__item {
       width:calc(50% - 0.5em)
     }
 }
-
-// @media (min-width: 37.5em){
-//   figure.fourth>a,
-//     img {
-//       width:calc(25% - 0.5em)
-//     }
-// }
-
-// @media (max-width: 37.5em){
-//   figure.fourth>a,
-//     img {
-//       width:calc(25% - 0.5em)
-//     }
-// }
 
 @media (min-width: 80em){
   .sidebar {

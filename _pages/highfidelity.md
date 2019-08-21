@@ -120,7 +120,7 @@ README and source code: [github.com/hifi-content/sitScript](https://github.com/h
 
 <h3>Problem</h3>
 
-<p>Occasionally loud noises and other sounds from a user's microphone disrupts event experience.</p>
+<p>Occasionally loud noises and other sounds from a user's microphone disrupts the event experience.</p>
 
 <h3>Solution</h3>
 
