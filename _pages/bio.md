@@ -14,6 +14,8 @@ Hello all! I'm Robin.
 
 I'm passionate about VR/AR, high tech and how cutting edge technology can make a difference in business, education, art, and human connection.
 
+I was first introduced to VR at PAX 2015 working on the show floor for Oculus VR. Since then with Oculus, I've given thousands of demos at conferences, Facebook HQ, and at Oculus Story Studio. I dabbled in WebVR development and then joined High Fidelity VR as a VR content developer integrating web technologies with the High Fidelity platform. Now, I'm helping other companies realize their goals with their VR platforms.
+
 I love coding, making anything more efficient, cheering on others' successes, talking about goals, travelling, and overcoming new challenges.
 
 In my off-time, I'm outside running, hiking, lifting weights, focusing on a passion project (currently learning Chinese), playing art and story video/VR games, petting the neighborhood cats, and joking about petting the neighborhood cats.
