@@ -1,0 +1,103 @@
+{% if include.id %}
+  {% assign feature_row2 = page[include.id] %}
+{% else %}
+  {% assign feature_row2 = page.feature_row2 %}
+{% endif %}
+
+<div class="feature__wrapper">
+
+  {% for f in feature_row2 %}
+
+    {% if f.url contains "://" %}
+      {% capture f_url %}{{ f.url }}{% endcapture %}
+    {% else %}
+      {% capture f_url %}{{ f.url | absolute_url }}{% endcapture %}
+    {% endif %}
+
+    {% if f.image_url contains "://" %}
+      {% capture f_image_url %}{{ f.image_url }}{% endcapture %}
+    {% else %}
+      {% capture f_image_url %}{{ f.image_url | absolute_url }}{% endcapture %}
+    {% endif %}
+
+    {% if f.image_url contains "://" %}
+      {% capture f_image_url %}{{ f.image_url }}{% endcapture %}
+    {% else %}
+      {% capture f_image_url %}{{ f.image_url | absolute_url }}{% endcapture %}
+    {% endif %}
+
+    <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %} {% if f.filters %}filter-item {{ f.filters }}{% endif %}">
+      <div class="archive__item">
+        {% if f.image_path %}
+          <div class="archive__item-teaser">
+            <div class="learn-more-container">
+
+            {% if f.image_url %}
+              <a href="{{f_image_url}}">
+            {% endif %}
+
+            <div class="learn-more-overlay">
+
+              <img src=
+                {% if f.image_path contains "://" %}
+                  "{{ f.image_path }}"
+                {% else %}
+                  "{{ f.image_path | absolute_url }}"
+                {% endif %}
+              alt="{% if f.alt %}{{ f.alt }}{% endif %}">
+
+              <div class="learn-more-text">{% if f.title%}{{ f.title }}{% else %}Learn More{% endif %}</div>
+            </div>
+            {% if f.image_url %}
+              </a>
+            {% endif %}
+
+            </div>
+
+            </div>
+        {% endif %}
+
+        <div class="archive__item-body">
+
+          {% if f.image_url %}
+            <a href="{{f_image_url}}" class="link-title">
+          {% endif %}
+
+            {% if f.title %}
+              <h2 class="archive__item-title">{{ f.title }}</h2>
+            {% endif %}
+
+            {% if f.image_url %}
+              </a>
+            {% endif %}
+
+          {% if f.excerpt %}
+            <div class="archive__item-excerpt">
+              {{ f.excerpt | markdownify }}
+            </div>
+          {% endif %}
+
+          {% if f.url %}
+            <a href="{{ f_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+          {% endif %}
+
+          {% if f.buttons %}
+            {% for b in f.buttons %}
+
+              {% if b.url contains "://" %}
+                {% capture b_url %}{{ b.url }}{% endcapture %}
+              {% else %}
+                {% capture b_url %}{{ b.url | absolute_url }}{% endcapture %}
+              {% endif %}
+
+              <a href="{{ b_url }}" class="btn {{ b.btn_class }}">{{ b.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+
+            {% endfor %}
+          {% endif %}
+
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+
+</div>

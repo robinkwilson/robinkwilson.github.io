@@ -2,13 +2,13 @@ title: Robin K. Wilson
 email: robin.kath.wilson@gmail.com
 description: # >- this means to ignore newlines until "baseurl:"
   Robin K. Wilson's personal website. The site serves as a platform to showcase her projects, contributions, and overall learning. Resume and CVs are available!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  robin-k-wilson
+baseurl: '' # the subpath of your site, e.g. /blog
+url: '' # the base hostname & protocol for your site, e.g. http://example.com
+github_username: robin-k-wilson
 
 # Build settings
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes@4.13.0"
+remote_theme: 'mmistakes/minimal-mistakes@4.13.0'
 # minimal_mistakes_skin: "dirt"
 plugins:
   - jekyll-include-cache
@@ -18,11 +18,11 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
 
-include: ["_pages"]
+include: ['_pages']
 
 author:
-  name: "Robin K. Wilson"
-  avatar: "/assets/img/robinHeadshot1_thumbnail.jpg"
+  name: 'Robin K. Wilson'
+  avatar: '/assets/img/robinHeadshot1_thumbnail.jpg'
   location: San Francisco, CA
   linkedin: robinkwilson/
   github: robin-k-wilson
@@ -31,7 +31,7 @@ author:
 defaults:
   # _posts
   - scope:
-      path: "_posts"
+      path: '' # "_posts"
       type: posts
     values:
       layout: single
@@ -41,7 +41,7 @@ defaults:
       share: true
       related: true
   - scope:
-      path: "assets/img"
+      path: 'assets/img'
     values:
       image: true
 
